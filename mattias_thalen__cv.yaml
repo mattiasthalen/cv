@@ -1,7 +1,9 @@
 cv:
   name: Mattias Thalén
+  headline: Analytics Consultant
   location: Uppsala, Sweden
   email: mattias.thalen@me.com
+  photo: mattias_thalen.jpg
   social_networks:
     - network: LinkedIn
       username: mattias-thalén
@@ -11,42 +13,60 @@ cv:
 
   sections:
     summary:
-      - Experienced Analytics Consultant with a strong background in Business Intelligence, Data Engineering, and Analytics Engineering. Proficient in Microsoft Fabric, Qlik Sense, and dbt, with a proven track record of delivering data-driven solutions that enhance business performance. Skilled in data modeling, ETL processes, and creating self-service analytics platforms. Committed to continuous improvement and leveraging data to drive strategic decision-making.
+      - Experienced Analytics Consultant with a strong background in Business Intelligence, Data Engineering, and Analytics Engineering. Proficient in Microsoft Fabric, Qlik Sense, SQLMesh, and dlt, with a proven track record of delivering data-driven solutions that enhance business performance. Skilled in data modeling, ETL processes, and creating self-service analytics platforms. Committed to continuous improvement and leveraging data to drive strategic decision-making.
 
     contributions:
-      - name: "[SQLGlot](https://github.com/tobymao/sqlglot)"
+      - name: SQLGlot
         summary: Added support for Microsoft Fabric SQL dialect to the open-source SQL parser and transpiler SQLGlot.
+        highlights:
+          - "[https://github.com/tobymao/sqlglot](https://github.com/tobymao/sqlglot)"
 
-      - name: "[SQLMesh](https://github.com/TobikoData/sqlmesh)"
+      - name: SQLMesh
         summary: Added support for Microsoft Fabric to SQLMesh, an open-source data transformation and orchestration tool.
+        highlights:
+          - "[https://github.com/TobikoData/sqlmesh](https://github.com/TobikoData/sqlmesh)"
 
-      - name: "[dltHub](https://github.com/dlt-hub/dlt)"
+      - name: dltHub
         summary: Added support for Microsoft Fabric to dltHub, an open-source data ingestion framework.
+        highlights:
+          - "[https://github.com/dlt-hub/dlt](https://github.com/dlt-hub/dlt)"
 
     certifications:
-      - name: "[Microsoft Certified - Fabric Data Engineer Associate](https://learn.microsoft.com/api/credentials/share/en-us/mattiasthalen/A2A3A7534C2AA848)"
+      - name: Microsoft Certified - Fabric Data Engineer Associate
         date: 2025-08
         summary: Issued by Microsoft. Credential ID A2A3A7534C2AA848.
+        highlights:
+          - "[https://learn.microsoft.com/api/credentials/share/en-us/mattiasthalen/A2A3A7534C2AA848](https://learn.microsoft.com/api/credentials/share/en-us/mattiasthalen/A2A3A7534C2AA848)"
 
-      - name: "[Microsoft Certified - Fabric Analytics Engineer Associate](https://learn.microsoft.com/api/credentials/share/en-us/mattiasthalen/B2D8389746CF89A2)"
+      - name: Microsoft Certified - Fabric Analytics Engineer Associate
         date: 2024-09
         summary: Issued by Microsoft. Credential ID B2D8389746CF89A2.
+        highlights:
+          - "[https://learn.microsoft.com/api/credentials/share/en-us/mattiasthalen/B2D8389746CF89A2](https://learn.microsoft.com/api/credentials/share/en-us/mattiasthalen/B2D8389746CF89A2)"
 
-      - name: "[dbt Developer](https://credentials.getdbt.com/abdeb34d-9514-4e6d-af0a-24d30f3f51e0)"
+      - name: dbt Developer
         date: 2024-07
         summary: Issued by dbt Labs. Credential ID 108086585.
+        highlights:
+          - "[https://credentials.getdbt.com/abdeb34d-9514-4e6d-af0a-24d30f3f51e0](https://credentials.getdbt.com/abdeb34d-9514-4e6d-af0a-24d30f3f51e0)"
 
-      - name: "[Qlik Sense Business Analyst](https://www.credly.com/badges/8df065ec-b338-4800-bbb7-78375bf685c8)"
+      - name: Qlik Sense Business Analyst
         date: 2024-03
         summary: Issued by Qlik. Credential ID 8df065ec-b338-4800-bbb7-78375bf685c8.
+        highlights:
+          - "[https://www.credly.com/badges/8df065ec-b338-4800-bbb7-78375bf685c8](https://www.credly.com/badges/8df065ec-b338-4800-bbb7-78375bf685c8)"
 
-      - name: "[Qlik Sense Data Architect](https://www.credly.com/badges/a4622c11-aa2b-4916-bb63-98d28384db39)"
+      - name: Qlik Sense Data Architect
         date: 2024-03
         summary: Issued by Qlik. Credential ID a4622c11-aa2b-4916-bb63-98d28384db39.
+        highlights:
+          - "[https://www.credly.com/badges/a4622c11-aa2b-4916-bb63-98d28384db39](https://www.credly.com/badges/a4622c11-aa2b-4916-bb63-98d28384db39)"
 
-      - name: "[Microsoft Certified - Azure Data Fundamentals](https://www.credly.com/badges/65afb248-b4d8-4757-8435-35f8a141f32a)"
+      - name: Microsoft Certified - Azure Data Fundamentals
         date: 2023-02
         summary: Issued by Microsoft. Credential ID 65afb248-b4d8-4757-8435-35f8a141f32a.
+        highlights:
+          - "[https://www.credly.com/badges/65afb248-b4d8-4757-8435-35f8a141f32a](https://www.credly.com/badges/65afb248-b4d8-4757-8435-35f8a141f32a)"
 
     skills:
       - label: Disciplines
@@ -116,35 +136,175 @@ cv:
     experience:
       - company: Two Sweden AB
         position: Analytics Consultant
-        start_date: 2023
+        start_date: 2025
         end_date: present
 
-      - company: Epical / Enfo
+      - company: Epical (Enfo)
         position: Analytics Consultant
         start_date: 2023
-        end_date: 2023
+        end_date: 2025
 
-      - company: Cytiva / GE Healthcare
+      - company: Cytiva (GE Healthcare)
         position: Analyst & Process Development Planner
         start_date: 2021
         end_date: 2023
 
-      - company: Cytiva / GE Healthcare
+      - company: Cytiva (GE Healthcare)
         position: BI Support Specialist
         start_date: 2017
         end_date: 2021
 
-      - company: Cytiva / GE Healthcare
+      - company: Cytiva (GE Healthcare)
         position: Logistics Specialist
         start_date: 2015
         end_date: 2017
 
-      - company: Cytiva / GE Healthcare
+      - company: GE Healthcare
         position: Deviation Handler
         start_date: 2015
         end_date: 2015
 
-      - company: Cytiva / GE Healthcare
+      - company: GE Healthcare
         position: Warehouse Associate
         start_date: 2010
         end_date: 2015
+
+design:
+  theme: engineeringclassic
+
+  page:
+    size: a4
+    top_margin: 0.7in
+    bottom_margin: 0.7in
+    left_margin: 0.7in
+    right_margin: 0.7in
+    show_footer: true
+    show_top_note: true
+
+  colors:
+    body: rgb(0, 0, 0)
+    name: rgb(0, 79, 144)
+    headline: rgb(0, 79, 144)
+    connections: rgb(0, 79, 144)
+    section_titles: rgb(0, 79, 144)
+    links: rgb(0, 79, 144)
+    footer: rgb(128, 128, 128)
+    top_note: rgb(128, 128, 128)
+
+  typography:
+    line_spacing: 0.6em
+    alignment: justified
+    date_and_location_column_alignment: right
+    font_family:
+      body: Source Sans 3
+      name: Source Sans 3
+      headline: Source Sans 3
+      connections: Source Sans 3
+      section_titles: Source Sans 3
+    font_size:
+      body: 10pt
+      name: 30pt
+      headline: 10pt
+      connections: 10pt
+      section_titles: 1.4em
+    small_caps:
+      name: false
+      headline: false
+      connections: false
+      section_titles: false
+    bold:
+      name: true
+      headline: false
+      connections: false
+      section_titles: true
+
+  links:
+    underline: false
+    show_external_link_icon: false
+
+  header:
+    alignment: center
+    photo_width: 3.5cm
+    photo_position: left
+    photo_space_left: 0.4cm
+    photo_space_right: 0.4cm
+    space_below_name: 0.7cm
+    space_below_headline: 0.7cm
+    space_below_connections: 0.7cm
+    connections:
+      phone_number_format: international
+      hyperlink: true
+      show_icons: true
+      display_urls_instead_of_usernames: false
+      separator: ''
+      space_between_connections: 0.5cm
+
+  section_titles:
+    type: with_partial_line
+    line_thickness: 0.5pt
+    space_above: 0.5cm
+    space_below: 0.3cm
+
+  sections:
+    allow_page_break: true
+    space_between_regular_entries: 1.2em
+    space_between_text_based_entries: 0.3em
+    show_time_spans_in:
+      - experience
+
+  entries:
+    date_and_location_width: 4.15cm
+    side_space: 0.2cm
+    space_between_columns: 0.1cm
+    allow_page_break: false
+    short_second_row: true
+    summary:
+      space_above: 0cm
+      space_left: 0cm
+    highlights:
+      bullet: •
+      nested_bullet: •
+      space_left: 0.15cm
+      space_above: 0cm
+      space_between_items: 0cm
+      space_between_bullet_and_text: 0.5em
+
+  templates:
+    footer: '*NAME -- PAGE_NUMBER/TOTAL_PAGES*'
+    top_note: '*LAST_UPDATED CURRENT_DATE*'
+    single_date: MONTH_ABBREVIATION YEAR
+    date_range: START_DATE – END_DATE
+    time_span: HOW_MANY_YEARS YEARS HOW_MANY_MONTHS MONTHS
+    one_line_entry:
+      main_column: '**LABEL:** DETAILS'
+    education_entry:
+      main_column: |-
+        **INSTITUTION**, AREA
+        SUMMARY
+        HIGHLIGHTS
+      degree_column: '**DEGREE**'
+      date_and_location_column: |-
+        LOCATION
+        DATE
+    normal_entry:
+      main_column: |-
+        **NAME**
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column: |-
+        LOCATION
+        DATE
+    experience_entry:
+      main_column: |-
+        **COMPANY**, POSITION
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column: |-
+        LOCATION
+        DATE
+    publication_entry:
+      main_column: |-
+        **TITLE**
+        AUTHORS
+        URL (JOURNAL)
+      date_and_location_column: DATE

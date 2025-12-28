@@ -7,7 +7,7 @@
   footer: context { [#emph[Mattias Thalén -- #str(here().page())\/#str(counter(page).final().first())]] },
   top-note: [ #emph[Last updated in Dec 2025] ],
   locale-catalog-language: "en",
-  page-size: "us-letter",
+  page-size: "a4",
   page-top-margin: 0.7in,
   page-bottom-margin: 0.7in,
   page-left-margin: 0.7in,
@@ -83,13 +83,24 @@
 )
 
 
+#grid(
+  columns: (auto, 1fr),
+  column-gutter: 0cm,
+  align: horizon + left,
+  [#pad(left: 0.4cm, right: 0.4cm, image("mattias_thalen.jpg", width: 3.5cm))
+],
+  [
 = Mattias Thalén
+
+  #headline([Analytics Consultant])
 
 #connections(
   [#connection-with-icon("location-dot")[Uppsala, Sweden]],
   [#link("mailto:mattias.thalen@me.com", icon: false, if-underline: false, if-color: false)[#connection-with-icon("envelope")[mattias.thalen\@me.com]]],
   [#link("https://linkedin.com/in/mattias-thalén", icon: false, if-underline: false, if-color: false)[#connection-with-icon("linkedin")[mattias-thalén]]],
   [#link("https://github.com/mattiasthalen", icon: false, if-underline: false, if-color: false)[#connection-with-icon("github")[mattiasthalen]]],
+)
+  ]
 )
 
 
@@ -101,10 +112,12 @@ Experienced Analytics Consultant with a strong background in Business Intelligen
 
 #regular-entry(
   [
-    #strong[#link("https://github.com/tobymao/sqlglot")[SQLGlot]]
+    #strong[SQLGlot]
 
     #summary[Added support for Microsoft Fabric SQL dialect to the open-source SQL parser and transpiler SQLGlot.]
 
+    - #link("https://github.com/tobymao/sqlglot")[https:\/\/github.com\/tobymao\/sqlglot]
+
   ],
   [
   ],
@@ -112,10 +125,12 @@ Experienced Analytics Consultant with a strong background in Business Intelligen
 
 #regular-entry(
   [
-    #strong[#link("https://github.com/TobikoData/sqlmesh")[SQLMesh]]
+    #strong[SQLMesh]
 
     #summary[Added support for Microsoft Fabric to SQLMesh, an open-source data transformation and orchestration tool.]
 
+    - #link("https://github.com/TobikoData/sqlmesh")[https:\/\/github.com\/TobikoData\/sqlmesh]
+
   ],
   [
   ],
@@ -123,9 +138,11 @@ Experienced Analytics Consultant with a strong background in Business Intelligen
 
 #regular-entry(
   [
-    #strong[#link("https://github.com/dlt-hub/dlt")[dltHub]]
+    #strong[dltHub]
 
     #summary[Added support for Microsoft Fabric to dltHub, an open-source data ingestion framework.]
+
+    - #link("https://github.com/dlt-hub/dlt")[https:\/\/github.com\/dlt-hub\/dlt]
 
   ],
   [
@@ -136,9 +153,11 @@ Experienced Analytics Consultant with a strong background in Business Intelligen
 
 #regular-entry(
   [
-    #strong[#link("https://learn.microsoft.com/api/credentials/share/en-us/mattiasthalen/A2A3A7534C2AA848")[Microsoft Certified - Fabric Data Engineer Associate]]
+    #strong[Microsoft Certified - Fabric Data Engineer Associate]
 
     #summary[Issued by Microsoft. Credential ID A2A3A7534C2AA848.]
+
+    - #link("https://learn.microsoft.com/api/credentials/share/en-us/mattiasthalen/A2A3A7534C2AA848")[https:\/\/learn.microsoft.com\/api\/credentials\/share\/en-us\/mattiasthalen\/A2A3A7534C2AA848]
 
   ],
   [
@@ -149,9 +168,11 @@ Experienced Analytics Consultant with a strong background in Business Intelligen
 
 #regular-entry(
   [
-    #strong[#link("https://learn.microsoft.com/api/credentials/share/en-us/mattiasthalen/B2D8389746CF89A2")[Microsoft Certified - Fabric Analytics Engineer Associate]]
+    #strong[Microsoft Certified - Fabric Analytics Engineer Associate]
 
     #summary[Issued by Microsoft. Credential ID B2D8389746CF89A2.]
+
+    - #link("https://learn.microsoft.com/api/credentials/share/en-us/mattiasthalen/B2D8389746CF89A2")[https:\/\/learn.microsoft.com\/api\/credentials\/share\/en-us\/mattiasthalen\/B2D8389746CF89A2]
 
   ],
   [
@@ -162,9 +183,11 @@ Experienced Analytics Consultant with a strong background in Business Intelligen
 
 #regular-entry(
   [
-    #strong[#link("https://credentials.getdbt.com/abdeb34d-9514-4e6d-af0a-24d30f3f51e0")[dbt Developer]]
+    #strong[dbt Developer]
 
     #summary[Issued by dbt Labs. Credential ID 108086585.]
+
+    - #link("https://credentials.getdbt.com/abdeb34d-9514-4e6d-af0a-24d30f3f51e0")[https:\/\/credentials.getdbt.com\/abdeb34d-9514-4e6d-af0a-24d30f3f51e0]
 
   ],
   [
@@ -175,10 +198,12 @@ Experienced Analytics Consultant with a strong background in Business Intelligen
 
 #regular-entry(
   [
-    #strong[#link("https://www.credly.com/badges/8df065ec-b338-4800-bbb7-78375bf685c8")[Qlik Sense Business Analyst]]
+    #strong[Qlik Sense Business Analyst]
 
     #summary[Issued by Qlik. Credential ID 8df065ec-b338-4800-bbb7-78375bf685c8.]
 
+    - #link("https://www.credly.com/badges/8df065ec-b338-4800-bbb7-78375bf685c8")[https:\/\/www.credly.com\/badges\/8df065ec-b338-4800-bbb7-78375bf685c8]
+
   ],
   [
     Mar 2024
@@ -188,10 +213,12 @@ Experienced Analytics Consultant with a strong background in Business Intelligen
 
 #regular-entry(
   [
-    #strong[#link("https://www.credly.com/badges/a4622c11-aa2b-4916-bb63-98d28384db39")[Qlik Sense Data Architect]]
+    #strong[Qlik Sense Data Architect]
 
     #summary[Issued by Qlik. Credential ID a4622c11-aa2b-4916-bb63-98d28384db39.]
 
+    - #link("https://www.credly.com/badges/a4622c11-aa2b-4916-bb63-98d28384db39")[https:\/\/www.credly.com\/badges\/a4622c11-aa2b-4916-bb63-98d28384db39]
+
   ],
   [
     Mar 2024
@@ -201,9 +228,11 @@ Experienced Analytics Consultant with a strong background in Business Intelligen
 
 #regular-entry(
   [
-    #strong[#link("https://www.credly.com/badges/65afb248-b4d8-4757-8435-35f8a141f32a")[Microsoft Certified - Azure Data Fundamentals]]
+    #strong[Microsoft Certified - Azure Data Fundamentals]
 
     #summary[Issued by Microsoft. Credential ID 65afb248-b4d8-4757-8435-35f8a141f32a.]
+
+    - #link("https://www.credly.com/badges/65afb248-b4d8-4757-8435-35f8a141f32a")[https:\/\/www.credly.com\/badges\/65afb248-b4d8-4757-8435-35f8a141f32a]
 
   ],
   [
@@ -367,20 +396,7 @@ Experienced Analytics Consultant with a strong background in Business Intelligen
 
   ],
   [
-    2023 – present
-
-    2 years
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[Epical \/ Enfo], Analytics Consultant
-
-  ],
-  [
-    2023 – 2023
+    2025 – present
 
     1 year
 
@@ -389,7 +405,20 @@ Experienced Analytics Consultant with a strong background in Business Intelligen
 
 #regular-entry(
   [
-    #strong[Cytiva \/ GE Healthcare], Analyst & Process Development Planner
+    #strong[Epical (Enfo)], Analytics Consultant
+
+  ],
+  [
+    2023 – 2025
+
+    2 years
+
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[Cytiva (GE Healthcare)], Analyst & Process Development Planner
 
   ],
   [
@@ -402,7 +431,7 @@ Experienced Analytics Consultant with a strong background in Business Intelligen
 
 #regular-entry(
   [
-    #strong[Cytiva \/ GE Healthcare], BI Support Specialist
+    #strong[Cytiva (GE Healthcare)], BI Support Specialist
 
   ],
   [
@@ -415,7 +444,7 @@ Experienced Analytics Consultant with a strong background in Business Intelligen
 
 #regular-entry(
   [
-    #strong[Cytiva \/ GE Healthcare], Logistics Specialist
+    #strong[Cytiva (GE Healthcare)], Logistics Specialist
 
   ],
   [
@@ -428,7 +457,7 @@ Experienced Analytics Consultant with a strong background in Business Intelligen
 
 #regular-entry(
   [
-    #strong[Cytiva \/ GE Healthcare], Deviation Handler
+    #strong[GE Healthcare], Deviation Handler
 
   ],
   [
@@ -441,7 +470,7 @@ Experienced Analytics Consultant with a strong background in Business Intelligen
 
 #regular-entry(
   [
-    #strong[Cytiva \/ GE Healthcare], Warehouse Associate
+    #strong[GE Healthcare], Warehouse Associate
 
   ],
   [
