@@ -7,30 +7,42 @@
 
 
 # Summary
-Experienced Analytics Consultant with a strong background in Business Intelligence, Data Engineering, and Analytics Engineering. Proficient in Microsoft Fabric, Qlik Sense, and dbt, with a proven track record of delivering data-driven solutions that enhance business performance. Skilled in data modeling, ETL processes, and creating self-service analytics platforms. Committed to continuous improvement and leveraging data to drive strategic decision-making.
+Experienced Analytics Consultant with a strong background in Business Intelligence, Data Engineering, and Analytics Engineering. Proficient in Microsoft Fabric, Qlik Sense, SQLMesh, and dlt, with a proven track record of delivering data-driven solutions that enhance business performance. Skilled in data modeling, ETL processes, and creating self-service analytics platforms. Committed to continuous improvement and leveraging data to drive strategic decision-making.
 
-# Contributions
+# Open Source Contributions
 ## **SQLGlot**
 
-Added support for Microsoft Fabric SQL dialect to the open-source SQL parser and transpiler SQLGlot.
+2025
 
-- [https://github.com/tobymao/sqlglot](https://github.com/tobymao/sqlglot)
+[github.com/tobymao/sqlglot](https://github.com/tobymao/sqlglot)
+
+Open-source SQL parser and transpiler.
+
+- Added support for Microsoft Fabric SQL dialect.
 
 
 
 ## **SQLMesh**
 
-Added support for Microsoft Fabric to SQLMesh, an open-source data transformation and orchestration tool.
+2025
 
-- [https://github.com/TobikoData/sqlmesh](https://github.com/TobikoData/sqlmesh)
+[github.com/TobikoData/sqlmesh](https://github.com/TobikoData/sqlmesh)
+
+Open-source data transformation and orchestration tool.
+
+- Added support for Microsoft Fabric.
 
 
 
 ## **dltHub**
 
-Added support for Microsoft Fabric to dltHub, an open-source data ingestion framework.
+2025
 
-- [https://github.com/dlt-hub/dlt](https://github.com/dlt-hub/dlt)
+[github.com/dlt-hub/dlt](https://github.com/dlt-hub/dlt)
+
+Open-source data ingestion framework.
+
+- Added support for Microsoft Fabric.
 
 
 
@@ -39,9 +51,7 @@ Added support for Microsoft Fabric to dltHub, an open-source data ingestion fram
 
 Aug 2025
 
-Issued by Microsoft. Credential ID A2A3A7534C2AA848.
-
-- [https://learn.microsoft.com/api/credentials/share/en-us/mattiasthalen/A2A3A7534C2AA848](https://learn.microsoft.com/api/credentials/share/en-us/mattiasthalen/A2A3A7534C2AA848)
+[learn.microsoft.com/api/credentials/share/en-us/mattiasthalen/A2A3A7534C2AA848](https://learn.microsoft.com/api/credentials/share/en-us/mattiasthalen/A2A3A7534C2AA848)
 
 
 
@@ -49,9 +59,7 @@ Issued by Microsoft. Credential ID A2A3A7534C2AA848.
 
 Sept 2024
 
-Issued by Microsoft. Credential ID B2D8389746CF89A2.
-
-- [https://learn.microsoft.com/api/credentials/share/en-us/mattiasthalen/B2D8389746CF89A2](https://learn.microsoft.com/api/credentials/share/en-us/mattiasthalen/B2D8389746CF89A2)
+[learn.microsoft.com/api/credentials/share/en-us/mattiasthalen/B2D8389746CF89A2](https://learn.microsoft.com/api/credentials/share/en-us/mattiasthalen/B2D8389746CF89A2)
 
 
 
@@ -59,9 +67,7 @@ Issued by Microsoft. Credential ID B2D8389746CF89A2.
 
 July 2024
 
-Issued by dbt Labs. Credential ID 108086585.
-
-- [https://credentials.getdbt.com/abdeb34d-9514-4e6d-af0a-24d30f3f51e0](https://credentials.getdbt.com/abdeb34d-9514-4e6d-af0a-24d30f3f51e0)
+[credentials.getdbt.com/abdeb34d-9514-4e6d-af0a-24d30f3f51e0](https://credentials.getdbt.com/abdeb34d-9514-4e6d-af0a-24d30f3f51e0)
 
 
 
@@ -69,9 +75,7 @@ Issued by dbt Labs. Credential ID 108086585.
 
 Mar 2024
 
-Issued by Qlik. Credential ID 8df065ec-b338-4800-bbb7-78375bf685c8.
-
-- [https://www.credly.com/badges/8df065ec-b338-4800-bbb7-78375bf685c8](https://www.credly.com/badges/8df065ec-b338-4800-bbb7-78375bf685c8)
+[www.credly.com/badges/8df065ec-b338-4800-bbb7-78375bf685c8](https://www.credly.com/badges/8df065ec-b338-4800-bbb7-78375bf685c8)
 
 
 
@@ -79,9 +83,7 @@ Issued by Qlik. Credential ID 8df065ec-b338-4800-bbb7-78375bf685c8.
 
 Mar 2024
 
-Issued by Qlik. Credential ID a4622c11-aa2b-4916-bb63-98d28384db39.
-
-- [https://www.credly.com/badges/a4622c11-aa2b-4916-bb63-98d28384db39](https://www.credly.com/badges/a4622c11-aa2b-4916-bb63-98d28384db39)
+[www.credly.com/badges/a4622c11-aa2b-4916-bb63-98d28384db39](https://www.credly.com/badges/a4622c11-aa2b-4916-bb63-98d28384db39)
 
 
 
@@ -89,9 +91,7 @@ Issued by Qlik. Credential ID a4622c11-aa2b-4916-bb63-98d28384db39.
 
 Feb 2023
 
-Issued by Microsoft. Credential ID 65afb248-b4d8-4757-8435-35f8a141f32a.
-
-- [https://www.credly.com/badges/65afb248-b4d8-4757-8435-35f8a141f32a](https://www.credly.com/badges/65afb248-b4d8-4757-8435-35f8a141f32a)
+[www.credly.com/badges/65afb248-b4d8-4757-8435-35f8a141f32a](https://www.credly.com/badges/65afb248-b4d8-4757-8435-35f8a141f32a)
 
 
 
@@ -109,9 +109,9 @@ Issued by Microsoft. Credential ID 65afb248-b4d8-4757-8435-35f8a141f32a.
 
 2025
 
-- Developed the architecture using dlt (dltHub) for rapid and stable ingestion of source data, and SQLMesh (dbt alternative) for transforming the raw data up until consumption. Follows a medallion architecture where we first historize the raw data, then organize it around core business concepts using the Hook methodology and finally deliver a self-service unified star schema to be consumed in PowerBI / Excel.
+**Tech Stack:** Microsoft Fabric, dlt, SQLMesh
 
-- **Technology:** Microsoft Fabric
+Developed the architecture using dlt (dltHub) for rapid and stable ingestion of source data, and SQLMesh (dbt alternative) for transforming the raw data up until consumption. Follows a medallion architecture where we first historize the raw data, then organize it around core business concepts using the Hook methodology and finally deliver a self-service unified star schema to be consumed in PowerBI / Excel.
 
 
 
@@ -119,9 +119,9 @@ Issued by Microsoft. Credential ID 65afb248-b4d8-4757-8435-35f8a141f32a.
 
 2025
 
-- Developed the architecture using dlt (dltHub) for ingestion. Qlik was used for the transformation. Follows the Analytical Data Storage System, where the first layer is according to how the system data looks. The middle layer is centered around how the business looks at the data; this is done by organizing it around core business concepts (the Hook Methodology). The last, and final layer is according to requirements, where we opted for the Unified Start Schema, due to it’s rapid and self-service centered core values.
+**Tech Stack:** Qlik Sense, dlt
 
-- **Technology:** Qlik Sense
+Developed the architecture using dlt (dltHub) for ingestion. Qlik was used for the transformation. Follows the Analytical Data Storage System, where the first layer is according to how the system data looks. The middle layer is centered around how the business looks at the data; this is done by organizing it around core business concepts (the Hook Methodology). The last, and final layer is according to requirements, where we opted for the Unified Start Schema, due to it’s rapid and self-service centered core values.
 
 
 
@@ -129,9 +129,9 @@ Issued by Microsoft. Credential ID 65afb248-b4d8-4757-8435-35f8a141f32a.
 
 2025
 
-- Maintenace of existing solution, both front- and back-end.
+**Tech Stack:** Qlik Sense, QlikView
 
-- **Technology:** Qlik Sense & QlikView
+Maintenace of existing solution, both front- and back-end.
 
 
 
@@ -139,9 +139,9 @@ Issued by Microsoft. Credential ID 65afb248-b4d8-4757-8435-35f8a141f32a.
 
 2025
 
-- Maintenance and new development of existing solution. Focusing on good architecture and a layered approach. I.e., medallion architecture / analytical data storage system.
+**Tech Stack:** Azure SQL, Azure Data Factory, dlt
 
-- **Technology:** Azure SQL / Data Factory
+Maintenance and new development of existing solution. Focusing on good architecture and a layered approach. I.e., medallion architecture / analytical data storage system.
 
 
 
@@ -149,9 +149,9 @@ Issued by Microsoft. Credential ID 65afb248-b4d8-4757-8435-35f8a141f32a.
 
 2024
 
-- Qlik Sense developer and system administrator. Migrated business logic from Planacy to Qlik platform, improving reporting capabilities.
+**Tech Stack:** Qlik Sense
 
-- **Technology:** Qlik Sense
+Qlik Sense developer and system administrator. Migrated business logic from Planacy to Qlik platform, improving reporting capabilities.
 
 
 
@@ -159,9 +159,9 @@ Issued by Microsoft. Credential ID 65afb248-b4d8-4757-8435-35f8a141f32a.
 
 2024
 
-- Qlik Sense development and system administration. Executed data extraction migration from LIMS to Qlik, streamlining analytics processes.
+**Tech Stack:** Qlik Sense
 
-- **Technology:** Qlik Sense
+Qlik Sense development and system administration. Executed data extraction migration from LIMS to Qlik, streamlining analytics processes.
 
 
 
@@ -169,9 +169,9 @@ Issued by Microsoft. Credential ID 65afb248-b4d8-4757-8435-35f8a141f32a.
 
 2024
 
-- QlikView developer and system administrator. Developed solutions for comprehensive call statistics analytics.
+**Tech Stack:** QlikView
 
-- **Technology:** QlikView
+QlikView developer and system administrator. Developed solutions for comprehensive call statistics analytics.
 
 
 
@@ -179,9 +179,9 @@ Issued by Microsoft. Credential ID 65afb248-b4d8-4757-8435-35f8a141f32a.
 
 2023
 
-- Qlik Sense developer and system administrator. Created data compilation solutions for annual finance reporting requirements. In charge of upgrading Qlik Sense.
+**Tech Stack:** Qlik Sense
 
-- **Technology:** Qlik Sense
+Qlik Sense developer and system administrator. Created data compilation solutions for annual finance reporting requirements. In charge of upgrading Qlik Sense.
 
 
 
@@ -189,9 +189,9 @@ Issued by Microsoft. Credential ID 65afb248-b4d8-4757-8435-35f8a141f32a.
 
 2023
 
-- Provided expert QlikView maintenance and development support, ensuring system stability and performance.
+**Tech Stack:** QlikView
 
-- **Technology:** QlikView
+Provided expert QlikView maintenance and development support, ensuring system stability and performance.
 
 
 
@@ -246,7 +246,7 @@ Issued by Microsoft. Credential ID 65afb248-b4d8-4757-8435-35f8a141f32a.
 
 
 
-## **GE Healthcare**, Deviation Handler
+## **Cytiva (GE Healthcare)**, Deviation Handler
 
 2015 – 2015
 
@@ -256,7 +256,7 @@ Issued by Microsoft. Credential ID 65afb248-b4d8-4757-8435-35f8a141f32a.
 
 
 
-## **GE Healthcare**, Warehouse Associate
+## **Cytiva (GE Healthcare)**, Warehouse Associate
 
 2010 – 2015
 
