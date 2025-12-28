@@ -106,20 +106,24 @@
 
 == Summary
 
-Experienced Analytics Consultant with a strong background in Business Intelligence, Data Engineering, and Analytics Engineering. Proficient in Microsoft Fabric, Qlik Sense, and dbt, with a proven track record of delivering data-driven solutions that enhance business performance. Skilled in data modeling, ETL processes, and creating self-service analytics platforms. Committed to continuous improvement and leveraging data to drive strategic decision-making.
+Experienced Analytics Consultant with a strong background in Business Intelligence, Data Engineering, and Analytics Engineering. Proficient in Microsoft Fabric, Qlik Sense, SQLMesh, and dlt, with a proven track record of delivering data-driven solutions that enhance business performance. Skilled in data modeling, ETL processes, and creating self-service analytics platforms. Committed to continuous improvement and leveraging data to drive strategic decision-making.
 
-== Contributions
+== Open Source Contributions
 
 #regular-entry(
   [
     #strong[SQLGlot]
 
-    #summary[Added support for Microsoft Fabric SQL dialect to the open-source SQL parser and transpiler SQLGlot.]
+    #link("https://github.com/tobymao/sqlglot")[github.com\/tobymao\/sqlglot]
 
-    - #link("https://github.com/tobymao/sqlglot")[https:\/\/github.com\/tobymao\/sqlglot]
+    #summary[Open-source SQL parser and transpiler.]
+
+    - Added support for Microsoft Fabric SQL dialect.
 
   ],
   [
+    2025
+
   ],
 )
 
@@ -127,12 +131,16 @@ Experienced Analytics Consultant with a strong background in Business Intelligen
   [
     #strong[SQLMesh]
 
-    #summary[Added support for Microsoft Fabric to SQLMesh, an open-source data transformation and orchestration tool.]
+    #link("https://github.com/TobikoData/sqlmesh")[github.com\/TobikoData\/sqlmesh]
 
-    - #link("https://github.com/TobikoData/sqlmesh")[https:\/\/github.com\/TobikoData\/sqlmesh]
+    #summary[Open-source data transformation and orchestration tool.]
+
+    - Added support for Microsoft Fabric.
 
   ],
   [
+    2025
+
   ],
 )
 
@@ -140,12 +148,16 @@ Experienced Analytics Consultant with a strong background in Business Intelligen
   [
     #strong[dltHub]
 
-    #summary[Added support for Microsoft Fabric to dltHub, an open-source data ingestion framework.]
+    #link("https://github.com/dlt-hub/dlt")[github.com\/dlt-hub\/dlt]
 
-    - #link("https://github.com/dlt-hub/dlt")[https:\/\/github.com\/dlt-hub\/dlt]
+    #summary[Open-source data ingestion framework.]
+
+    - Added support for Microsoft Fabric.
 
   ],
   [
+    2025
+
   ],
 )
 
@@ -155,9 +167,7 @@ Experienced Analytics Consultant with a strong background in Business Intelligen
   [
     #strong[Microsoft Certified - Fabric Data Engineer Associate]
 
-    #summary[Issued by Microsoft. Credential ID A2A3A7534C2AA848.]
-
-    - #link("https://learn.microsoft.com/api/credentials/share/en-us/mattiasthalen/A2A3A7534C2AA848")[https:\/\/learn.microsoft.com\/api\/credentials\/share\/en-us\/mattiasthalen\/A2A3A7534C2AA848]
+    #link("https://learn.microsoft.com/api/credentials/share/en-us/mattiasthalen/A2A3A7534C2AA848")[learn.microsoft.com\/api\/credentials\/share\/en-us\/mattiasthalen\/A2A3A7534C2AA848]
 
   ],
   [
@@ -170,9 +180,7 @@ Experienced Analytics Consultant with a strong background in Business Intelligen
   [
     #strong[Microsoft Certified - Fabric Analytics Engineer Associate]
 
-    #summary[Issued by Microsoft. Credential ID B2D8389746CF89A2.]
-
-    - #link("https://learn.microsoft.com/api/credentials/share/en-us/mattiasthalen/B2D8389746CF89A2")[https:\/\/learn.microsoft.com\/api\/credentials\/share\/en-us\/mattiasthalen\/B2D8389746CF89A2]
+    #link("https://learn.microsoft.com/api/credentials/share/en-us/mattiasthalen/B2D8389746CF89A2")[learn.microsoft.com\/api\/credentials\/share\/en-us\/mattiasthalen\/B2D8389746CF89A2]
 
   ],
   [
@@ -185,9 +193,7 @@ Experienced Analytics Consultant with a strong background in Business Intelligen
   [
     #strong[dbt Developer]
 
-    #summary[Issued by dbt Labs. Credential ID 108086585.]
-
-    - #link("https://credentials.getdbt.com/abdeb34d-9514-4e6d-af0a-24d30f3f51e0")[https:\/\/credentials.getdbt.com\/abdeb34d-9514-4e6d-af0a-24d30f3f51e0]
+    #link("https://credentials.getdbt.com/abdeb34d-9514-4e6d-af0a-24d30f3f51e0")[credentials.getdbt.com\/abdeb34d-9514-4e6d-af0a-24d30f3f51e0]
 
   ],
   [
@@ -200,9 +206,7 @@ Experienced Analytics Consultant with a strong background in Business Intelligen
   [
     #strong[Qlik Sense Business Analyst]
 
-    #summary[Issued by Qlik. Credential ID 8df065ec-b338-4800-bbb7-78375bf685c8.]
-
-    - #link("https://www.credly.com/badges/8df065ec-b338-4800-bbb7-78375bf685c8")[https:\/\/www.credly.com\/badges\/8df065ec-b338-4800-bbb7-78375bf685c8]
+    #link("https://www.credly.com/badges/8df065ec-b338-4800-bbb7-78375bf685c8")[www.credly.com\/badges\/8df065ec-b338-4800-bbb7-78375bf685c8]
 
   ],
   [
@@ -215,9 +219,7 @@ Experienced Analytics Consultant with a strong background in Business Intelligen
   [
     #strong[Qlik Sense Data Architect]
 
-    #summary[Issued by Qlik. Credential ID a4622c11-aa2b-4916-bb63-98d28384db39.]
-
-    - #link("https://www.credly.com/badges/a4622c11-aa2b-4916-bb63-98d28384db39")[https:\/\/www.credly.com\/badges\/a4622c11-aa2b-4916-bb63-98d28384db39]
+    #link("https://www.credly.com/badges/a4622c11-aa2b-4916-bb63-98d28384db39")[www.credly.com\/badges\/a4622c11-aa2b-4916-bb63-98d28384db39]
 
   ],
   [
@@ -230,9 +232,7 @@ Experienced Analytics Consultant with a strong background in Business Intelligen
   [
     #strong[Microsoft Certified - Azure Data Fundamentals]
 
-    #summary[Issued by Microsoft. Credential ID 65afb248-b4d8-4757-8435-35f8a141f32a.]
-
-    - #link("https://www.credly.com/badges/65afb248-b4d8-4757-8435-35f8a141f32a")[https:\/\/www.credly.com\/badges\/65afb248-b4d8-4757-8435-35f8a141f32a]
+    #link("https://www.credly.com/badges/65afb248-b4d8-4757-8435-35f8a141f32a")[www.credly.com\/badges\/65afb248-b4d8-4757-8435-35f8a141f32a]
 
   ],
   [
@@ -257,9 +257,9 @@ Experienced Analytics Consultant with a strong background in Business Intelligen
   [
     #strong[Jaktia]
 
-    - Developed the architecture using dlt (dltHub) for rapid and stable ingestion of source data, and SQLMesh (dbt alternative) for transforming the raw data up until consumption. Follows a medallion architecture where we first historize the raw data, then organize it around core business concepts using the Hook methodology and finally deliver a self-service unified star schema to be consumed in PowerBI \/ Excel.
+    #strong[Tech Stack:] Microsoft Fabric, dlt, SQLMesh
 
-    - #strong[Technology:] Microsoft Fabric
+    #summary[Developed the architecture using dlt (dltHub) for rapid and stable ingestion of source data, and SQLMesh (dbt alternative) for transforming the raw data up until consumption. Follows a medallion architecture where we first historize the raw data, then organize it around core business concepts using the Hook methodology and finally deliver a self-service unified star schema to be consumed in PowerBI \/ Excel.]
 
   ],
   [
@@ -272,9 +272,9 @@ Experienced Analytics Consultant with a strong background in Business Intelligen
   [
     #strong[Arctic Paper]
 
-    - Developed the architecture using dlt (dltHub) for ingestion. Qlik was used for the transformation. Follows the Analytical Data Storage System, where the first layer is according to how the system data looks. The middle layer is centered around how the business looks at the data; this is done by organizing it around core business concepts (the Hook Methodology). The last, and final layer is according to requirements, where we opted for the Unified Start Schema, due to it’s rapid and self-service centered core values.
+    #strong[Tech Stack:] Qlik Sense, dlt
 
-    - #strong[Technology:] Qlik Sense
+    #summary[Developed the architecture using dlt (dltHub) for ingestion. Qlik was used for the transformation. Follows the Analytical Data Storage System, where the first layer is according to how the system data looks. The middle layer is centered around how the business looks at the data; this is done by organizing it around core business concepts (the Hook Methodology). The last, and final layer is according to requirements, where we opted for the Unified Start Schema, due to it’s rapid and self-service centered core values.]
 
   ],
   [
@@ -287,9 +287,9 @@ Experienced Analytics Consultant with a strong background in Business Intelligen
   [
     #strong[Avarn Security]
 
-    - Maintenace of existing solution, both front- and back-end.
+    #strong[Tech Stack:] Qlik Sense, QlikView
 
-    - #strong[Technology:] Qlik Sense & QlikView
+    #summary[Maintenace of existing solution, both front- and back-end.]
 
   ],
   [
@@ -302,9 +302,9 @@ Experienced Analytics Consultant with a strong background in Business Intelligen
   [
     #strong[Volvohandlarförening]
 
-    - Maintenance and new development of existing solution. Focusing on good architecture and a layered approach. I.e., medallion architecture \/ analytical data storage system.
+    #strong[Tech Stack:] Azure SQL, Azure Data Factory, dlt
 
-    - #strong[Technology:] Azure SQL \/ Data Factory
+    #summary[Maintenance and new development of existing solution. Focusing on good architecture and a layered approach. I.e., medallion architecture \/ analytical data storage system.]
 
   ],
   [
@@ -317,9 +317,9 @@ Experienced Analytics Consultant with a strong background in Business Intelligen
   [
     #strong[Swedish Government Agency]
 
-    - Qlik Sense developer and system administrator. Migrated business logic from Planacy to Qlik platform, improving reporting capabilities.
+    #strong[Tech Stack:] Qlik Sense
 
-    - #strong[Technology:] Qlik Sense
+    #summary[Qlik Sense developer and system administrator. Migrated business logic from Planacy to Qlik platform, improving reporting capabilities.]
 
   ],
   [
@@ -332,9 +332,9 @@ Experienced Analytics Consultant with a strong background in Business Intelligen
   [
     #strong[Life Science Corporation]
 
-    - Qlik Sense development and system administration. Executed data extraction migration from LIMS to Qlik, streamlining analytics processes.
+    #strong[Tech Stack:] Qlik Sense
 
-    - #strong[Technology:] Qlik Sense
+    #summary[Qlik Sense development and system administration. Executed data extraction migration from LIMS to Qlik, streamlining analytics processes.]
 
   ],
   [
@@ -347,9 +347,9 @@ Experienced Analytics Consultant with a strong background in Business Intelligen
   [
     #strong[Sveriges Kommuner & Regioner]
 
-    - QlikView developer and system administrator. Developed solutions for comprehensive call statistics analytics.
+    #strong[Tech Stack:] QlikView
 
-    - #strong[Technology:] QlikView
+    #summary[QlikView developer and system administrator. Developed solutions for comprehensive call statistics analytics.]
 
   ],
   [
@@ -362,9 +362,9 @@ Experienced Analytics Consultant with a strong background in Business Intelligen
   [
     #strong[Vinnova – Sweden's Innovation Agency]
 
-    - Qlik Sense developer and system administrator. Created data compilation solutions for annual finance reporting requirements. In charge of upgrading Qlik Sense.
+    #strong[Tech Stack:] Qlik Sense
 
-    - #strong[Technology:] Qlik Sense
+    #summary[Qlik Sense developer and system administrator. Created data compilation solutions for annual finance reporting requirements. In charge of upgrading Qlik Sense.]
 
   ],
   [
@@ -377,9 +377,9 @@ Experienced Analytics Consultant with a strong background in Business Intelligen
   [
     #strong[Internationella Engelska Skolan]
 
-    - Provided expert QlikView maintenance and development support, ensuring system stability and performance.
+    #strong[Tech Stack:] QlikView
 
-    - #strong[Technology:] QlikView
+    #summary[Provided expert QlikView maintenance and development support, ensuring system stability and performance.]
 
   ],
   [
@@ -457,7 +457,7 @@ Experienced Analytics Consultant with a strong background in Business Intelligen
 
 #regular-entry(
   [
-    #strong[GE Healthcare], Deviation Handler
+    #strong[Cytiva (GE Healthcare)], Deviation Handler
 
   ],
   [
@@ -470,7 +470,7 @@ Experienced Analytics Consultant with a strong background in Business Intelligen
 
 #regular-entry(
   [
-    #strong[GE Healthcare], Warehouse Associate
+    #strong[Cytiva (GE Healthcare)], Warehouse Associate
 
   ],
   [
