@@ -196,7 +196,7 @@ Provided expert QlikView maintenance and development support, ensuring system st
 
 
 # Experience
-## **Two Sweden AB**, Analytics Consultant
+## **Enqore (Two Sweden AB)**, Analytics Consultant
 
 2025 – present
 
