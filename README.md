@@ -105,6 +105,26 @@ Feb 2023
 **Technologies:** Microsoft Fabric, Qlik Sense, dbt, SQLMesh, dlt
 
 # Projects
+## **Avarn Security — Qlik to Fabric Migration**
+
+2026
+
+**Tech Stack:** Microsoft Fabric, dlt, SQLMesh
+
+Migration of ELT processes from Qlik to Microsoft Fabric. Using dlt for ingestion and SQLMesh for transformation, following a medallion architecture. Qlik remains the BI layer.
+
+
+
+## **Löfbergs Coffee**
+
+2026
+
+**Tech Stack:** Microsoft Fabric, dlt, SQLMesh, Power BI
+
+Full migration from QlikView to Microsoft Fabric. Using dlt for ingestion and SQLMesh for transformation, following a medallion architecture. Power BI for consumption.
+
+
+
 ## **Jaktia**
 
 2025
@@ -125,7 +145,7 @@ Developed the architecture using dlt (dltHub) for ingestion. Qlik was used for t
 
 
 
-## **Avarn Security**
+## **Avarn Security — Maintenance**
 
 2025
 
@@ -196,7 +216,7 @@ Provided expert QlikView maintenance and development support, ensuring system st
 
 
 # Experience
-## **Enqore (Two Sweden AB)**, Analytics Consultant
+## **Enqore**, Analytics Consultant
 
 2025 – present
 
@@ -206,7 +226,7 @@ Provided expert QlikView maintenance and development support, ensuring system st
 
 
 
-## **Epical (Enfo)**, Analytics Consultant
+## **Epical**, Analytics Consultant
 
 2023 – 2025
 
@@ -216,52 +236,22 @@ Provided expert QlikView maintenance and development support, ensuring system st
 
 
 
-## **Cytiva (GE Healthcare)**, Analyst & Process Development Planner
+## **Cytiva**, Various Roles
 
-2021 – 2023
-
-
-
-2 years
+2010 – 2023
 
 
 
-## **Cytiva (GE Healthcare)**, BI Support Specialist
+13 years
 
-2017 – 2021
+- Analyst & Process Development Planner (2021–2023)
 
+- BI Support Specialist (2017–2021)
 
+- Logistics Specialist (2015–2017)
 
-4 years
+- Deviation Handler (2015)
 
-
-
-## **Cytiva (GE Healthcare)**, Logistics Specialist
-
-2015 – 2017
-
-
-
-2 years
-
-
-
-## **Cytiva (GE Healthcare)**, Deviation Handler
-
-2015 – 2015
-
-
-
-1 year
-
-
-
-## **Cytiva (GE Healthcare)**, Warehouse Associate
-
-2010 – 2015
-
-
-
-5 years
+- Warehouse Associate (2010–2015)
 
 

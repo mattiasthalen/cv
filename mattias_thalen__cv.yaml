@@ -73,6 +73,23 @@ cv:
         details: Microsoft Fabric, Qlik Sense, dbt, SQLMesh, dlt
 
     projects:
+      - title: Avarn Security — Qlik to Fabric Migration
+        date: 2026
+        authors:
+          - Microsoft Fabric
+          - dlt
+          - SQLMesh
+        summary: Migration of ELT processes from Qlik to Microsoft Fabric. Using dlt for ingestion and SQLMesh for transformation, following a medallion architecture. Qlik remains the BI layer.
+
+      - title: Löfbergs Coffee
+        date: 2026
+        authors:
+          - Microsoft Fabric
+          - dlt
+          - SQLMesh
+          - Power BI
+        summary: Full migration from QlikView to Microsoft Fabric. Using dlt for ingestion and SQLMesh for transformation, following a medallion architecture. Power BI for consumption.
+
       - title: Jaktia
         date: 2025
         authors:
@@ -88,7 +105,7 @@ cv:
           - dlt
         summary: Developed the architecture using dlt (dltHub) for ingestion. Qlik was used for the transformation. Follows the Analytical Data Storage System, where the first layer is according to how the system data looks. The middle layer is centered around how the business looks at the data; this is done by organizing it around core business concepts (the Hook Methodology). The last, and final layer is according to requirements, where we opted for the Unified Start Schema, due to it’s rapid and self-service centered core values.
 
-      - title: Avarn Security
+      - title: Avarn Security — Maintenance
         date: 2025
         authors:
           - Qlik Sense
@@ -134,40 +151,26 @@ cv:
         summary: Provided expert QlikView maintenance and development support, ensuring system stability and performance.
 
     experience:
-      - company: Two Sweden AB
+      - company: Enqore
         position: Analytics Consultant
         start_date: 2025
         end_date: present
 
-      - company: Epical (Enfo)
+      - company: Epical
         position: Analytics Consultant
         start_date: 2023
         end_date: 2025
 
-      - company: Cytiva (GE Healthcare)
-        position: Analyst & Process Development Planner
-        start_date: 2021
-        end_date: 2023
-
-      - company: Cytiva (GE Healthcare)
-        position: BI Support Specialist
-        start_date: 2017
-        end_date: 2021
-
-      - company: Cytiva (GE Healthcare)
-        position: Logistics Specialist
-        start_date: 2015
-        end_date: 2017
-
-      - company: Cytiva (GE Healthcare)
-        position: Deviation Handler
-        start_date: 2015
-        end_date: 2015
-
-      - company: Cytiva (GE Healthcare)
-        position: Warehouse Associate
+      - company: Cytiva
+        position: Various Roles
         start_date: 2010
-        end_date: 2015
+        end_date: 2023
+        highlights:
+          - "Analyst & Process Development Planner (2021–2023)"
+          - "BI Support Specialist (2017–2021)"
+          - "Logistics Specialist (2015–2017)"
+          - "Deviation Handler (2015)"
+          - "Warehouse Associate (2010–2015)"
 
 design:
   theme: engineeringclassic

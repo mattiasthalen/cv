@@ -5,7 +5,7 @@
 #show: rendercv.with(
   name: "Mattias Thalén",
   footer: context { [#emph[Mattias Thalén -- #str(here().page())\/#str(counter(page).final().first())]] },
-  top-note: [ #emph[Last updated in Dec 2025] ],
+  top-note: [ #emph[Last updated in Mar 2026] ],
   locale-catalog-language: "en",
   page-size: "a4",
   page-top-margin: 0.7in,
@@ -76,9 +76,9 @@
   entries-highlights-space-between-items: 0cm,
   entries-highlights-space-between-bullet-and-text: 0.5em,
   date: datetime(
-    year: 2025,
-    month: 12,
-    day: 28,
+    year: 2026,
+    month: 3,
+    day: 6,
   ),
 )
 
@@ -255,6 +255,36 @@ Experienced Analytics Consultant with a strong background in Business Intelligen
 
 #regular-entry(
   [
+    #strong[Avarn Security — Qlik to Fabric Migration]
+
+    #strong[Tech Stack:] Microsoft Fabric, dlt, SQLMesh
+
+    #summary[Migration of ELT processes from Qlik to Microsoft Fabric. Using dlt for ingestion and SQLMesh for transformation, following a medallion architecture. Qlik remains the BI layer.]
+
+  ],
+  [
+    2026
+
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[Löfbergs Coffee]
+
+    #strong[Tech Stack:] Microsoft Fabric, dlt, SQLMesh, Power BI
+
+    #summary[Full migration from QlikView to Microsoft Fabric. Using dlt for ingestion and SQLMesh for transformation, following a medallion architecture. Power BI for consumption.]
+
+  ],
+  [
+    2026
+
+  ],
+)
+
+#regular-entry(
+  [
     #strong[Jaktia]
 
     #strong[Tech Stack:] Microsoft Fabric, dlt, SQLMesh
@@ -285,7 +315,7 @@ Experienced Analytics Consultant with a strong background in Business Intelligen
 
 #regular-entry(
   [
-    #strong[Avarn Security]
+    #strong[Avarn Security — Maintenance]
 
     #strong[Tech Stack:] Qlik Sense, QlikView
 
@@ -392,7 +422,7 @@ Experienced Analytics Consultant with a strong background in Business Intelligen
 
 #regular-entry(
   [
-    #strong[Two Sweden AB], Analytics Consultant
+    #strong[Enqore], Analytics Consultant
 
   ],
   [
@@ -405,7 +435,7 @@ Experienced Analytics Consultant with a strong background in Business Intelligen
 
 #regular-entry(
   [
-    #strong[Epical (Enfo)], Analytics Consultant
+    #strong[Epical], Analytics Consultant
 
   ],
   [
@@ -418,65 +448,23 @@ Experienced Analytics Consultant with a strong background in Business Intelligen
 
 #regular-entry(
   [
-    #strong[Cytiva (GE Healthcare)], Analyst & Process Development Planner
+    #strong[Cytiva], Various Roles
+
+    - Analyst & Process Development Planner (2021–2023)
+
+    - BI Support Specialist (2017–2021)
+
+    - Logistics Specialist (2015–2017)
+
+    - Deviation Handler (2015)
+
+    - Warehouse Associate (2010–2015)
 
   ],
   [
-    2021 – 2023
+    2010 – 2023
 
-    2 years
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[Cytiva (GE Healthcare)], BI Support Specialist
-
-  ],
-  [
-    2017 – 2021
-
-    4 years
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[Cytiva (GE Healthcare)], Logistics Specialist
-
-  ],
-  [
-    2015 – 2017
-
-    2 years
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[Cytiva (GE Healthcare)], Deviation Handler
-
-  ],
-  [
-    2015 – 2015
-
-    1 year
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[Cytiva (GE Healthcare)], Warehouse Associate
-
-  ],
-  [
-    2010 – 2015
-
-    5 years
+    13 years
 
   ],
 )
