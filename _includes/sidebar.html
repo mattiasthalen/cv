@@ -1,0 +1,23 @@
+<!-- Hamburger button (mobile only) -->
+<button class="hamburger" x-on:click="sidebarOpen = !sidebarOpen"
+  x-bind:aria-expanded="sidebarOpen" aria-label="Toggle navigation">
+  <span x-text="sidebarOpen ? '&times;' : '&#9776;'"></span>
+</button>
+
+<!-- Sidebar overlay (mobile) -->
+<div class="sidebar-overlay" x-show="sidebarOpen" x-on:click="sidebarOpen = false"
+  x-transition:enter="transition-enter" x-transition:enter-start="opacity-0"
+  x-transition:enter-end="opacity-100" x-transition:leave="transition-leave"
+  x-transition:leave-start="opacity-100" x-transition:leave-end="opacity-0"></div>
+
+<!-- Sidebar -->
+<aside class="sidebar" x-bind:class="{ 'sidebar-open': sidebarOpen }">
+  <nav class="sidebar-nav">
+    <a href="#summary" x-on:click.prevent="navigateToSection('summary'); sidebarOpen = false">Summary</a>
+    <a href="#open-source-contributions" x-on:click.prevent="navigateToSection('open-source-contributions'); sidebarOpen = false">Open Source</a>
+    <a href="#certifications" x-on:click.prevent="navigateToSection('certifications'); sidebarOpen = false">Certifications</a>
+    <a href="#skills" x-on:click.prevent="navigateToSection('skills'); sidebarOpen = false">Skills</a>
+    <a href="#projects" x-on:click.prevent="navigateToSection('projects'); sidebarOpen = false">Projects</a>
+    <a href="#experience" x-on:click.prevent="navigateToSection('experience'); sidebarOpen = false">Experience</a>
+  </nav>
+</aside>
