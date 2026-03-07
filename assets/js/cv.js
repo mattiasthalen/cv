@@ -1,4 +1,6 @@
-document.addEventListener('DOMContentLoaded', function () {
+// This script is loaded with defer (before Alpine.js) so DOM is ready
+// and we can wrap sections before Alpine initializes them.
+(function () {
   const content = document.querySelector('.cv-content');
   if (!content) return;
 
@@ -67,7 +69,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   // Initialize scroll-spy
   initScrollSpy();
-});
+})();
 
 function initScrollSpy() {
   const sections = document.querySelectorAll('.cv-section');
