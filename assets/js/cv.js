@@ -67,6 +67,18 @@
     heading.parentNode.replaceChild(wrapper, heading);
   });
 
+  // Generate sidebar nav links from sections
+  var nav = document.querySelector('.sidebar-nav');
+  if (nav) {
+    document.querySelectorAll('.cv-section').forEach(function (section) {
+      var link = document.createElement('a');
+      link.href = '#' + section.id;
+      link.textContent = section.querySelector('h1').textContent.trim();
+      link.setAttribute('x-on:click.prevent', "navigateToSection('" + section.id + "'); sidebarOpen = false");
+      nav.appendChild(link);
+    });
+  }
+
   // Initialize scroll-spy
   initScrollSpy();
 })();
