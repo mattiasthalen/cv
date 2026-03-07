@@ -1,0 +1,50 @@
+---
+---
+
+@import "jekyll-theme-midnight";
+
+.hero {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.hero-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #79b8ff;
+}
+
+.hero-name {
+  font-size: 2em;
+  margin: 15px 0 5px;
+  color: #fff;
+}
+
+.hero-subtitle {
+  font-size: 1.2em;
+  color: #79b8ff;
+  margin: 0 0 5px;
+}
+
+.hero-location {
+  font-size: 0.95em;
+  color: #999;
+  margin: 0 0 10px;
+}
+
+.hero-links {
+  margin-top: 10px;
+
+  a {
+    color: #79b8ff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 0.95em;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
