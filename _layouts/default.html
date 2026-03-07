@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
     <script src="{{ '/assets/js/respond.js' | relative_url }}"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
     <!--[if lt IE 9]>
       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -17,7 +18,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     {% include head-custom.html %}
   </head>
-  <body>
+  <body x-data="{ sidebarOpen: false }">
     <div id="header">
       <nav>
         <ul>
@@ -32,9 +33,17 @@
           {% include hero.html %}
           <hr>
         </div>
-
-        {{ content }}
       </section>
+
+      <div class="content-with-sidebar">
+        {% include sidebar.html %}
+
+        <section class="cv-content">
+          {{ content }}
+        </section>
+      </div>
     </div>
+
+    <script src="{{ '/assets/js/cv.js' | relative_url }}"></script>
   </body>
 </html>
