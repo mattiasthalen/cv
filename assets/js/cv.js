@@ -45,9 +45,10 @@
     header.appendChild(chevron);
     header.appendChild(heading.cloneNode(true));
 
-    // Create collapsible body
+    // Create collapsible body (x-cloak prevents FOUC before Alpine init)
     const body = document.createElement('div');
     body.className = 'cv-section-body';
+    if (!isExpanded) body.setAttribute('x-cloak', '');
     body.setAttribute('x-show', 'open');
     body.setAttribute('x-transition:enter', 'transition-enter');
     body.setAttribute('x-transition:enter-start', 'transition-enter-start');
@@ -67,13 +68,18 @@
     heading.parentNode.replaceChild(wrapper, heading);
   });
 
+  // Shorter labels for sidebar when heading text is too long
+  var shortLabels = {
+    'open-source-contributions': 'Open Source'
+  };
+
   // Generate sidebar nav links from sections
   var nav = document.querySelector('.sidebar-nav');
   if (nav) {
     document.querySelectorAll('.cv-section').forEach(function (section) {
       var link = document.createElement('a');
       link.href = '#' + section.id;
-      link.textContent = section.querySelector('h1').textContent.trim();
+      link.textContent = shortLabels[section.id] || section.querySelector('h1').textContent.trim();
       link.setAttribute('x-on:click.prevent', "navigateToSection('" + section.id + "'); sidebarOpen = false");
       nav.appendChild(link);
     });

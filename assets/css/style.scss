@@ -3,6 +3,9 @@
 
 @import "jekyll-theme-midnight";
 
+// Prevent flash of unstyled content before Alpine initializes
+[x-cloak] { display: none !important; }
+
 .hero {
   text-align: center;
   padding: 20px 0;
@@ -68,10 +71,11 @@
   width: 200px;
   flex-shrink: 0;
   position: sticky;
-  top: 0;
-  height: 100vh;
+  top: 20px;
+  align-self: flex-start;
   padding: 20px 0;
   overflow-y: auto;
+  border-right: 1px solid #333;
 }
 
 .sidebar-nav {
