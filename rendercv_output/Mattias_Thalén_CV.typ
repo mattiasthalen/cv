@@ -323,7 +323,7 @@ Experienced Analytics Consultant with a strong background in Business Intelligen
 
     #strong[Tech Stack:] Microsoft Fabric, dlt, SQLMesh
 
-    #summary[A retail company with a brand-new ERP (Omnium) had no analytics whatsoever. In a team of three, I designed and built the data platform from the ground up — ingestion, historization, and a self-service consumption layer. Delivered a working foundation before the project was paused by the client to complete their ERP migration first.]
+    #summary[A retail company with a brand-new ERP (Omnium) had no analytics at all. In a team of three, I designed and built the data platform from the ground up, covering ingestion, historization, and a self-service consumption layer. Delivered a working foundation before the project was paused by the client to complete their ERP migration first.]
 
   ],
   [
@@ -338,7 +338,7 @@ Experienced Analytics Consultant with a strong background in Business Intelligen
 
     #strong[Tech Stack:] Qlik Sense, dlt
 
-    #summary[HR lacked visibility into workforce skills across the organization. Solo, I built a talent analytics solution integrating Visma HR, JDE, Maximo, and a homegrown talent system into Qlik. The solution maps skills, grades, and credential expirations across departments — enabling HR to spot skill gaps and plan hiring and training. Used by hundreds of employees across the organization.]
+    #summary[HR lacked visibility into workforce skills across the organization. Solo, I built a talent analytics solution integrating Visma HR, JDE, Maximo, and a homegrown talent system into Qlik. The solution maps skills, grades, and credential expirations across departments, enabling HR to spot skill gaps and plan hiring and training. Used by hundreds of employees.]
 
   ],
   [
@@ -383,7 +383,7 @@ Experienced Analytics Consultant with a strong background in Business Intelligen
 
     #strong[Tech Stack:] Qlik Sense
 
-    #summary[The agency needed to move complex budget allocation logic out of the niche tool Planacy into a more maintainable Qlik platform. In a team of three, I rebuilt the allocation logic in Qlik and — as a side effect — documented the entire budgeting process as a Mermaid flowchart, giving the agency their first visual representation of the logic.]
+    #summary[The agency needed to move complex budget allocation logic out of the niche tool Planacy into a more maintainable Qlik platform. In a team of three, I rebuilt the allocation logic in Qlik and also documented the entire budgeting process as a Mermaid flowchart, giving the agency their first visual representation of the logic.]
 
   ],
   [
@@ -398,7 +398,7 @@ Experienced Analytics Consultant with a strong background in Business Intelligen
 
     #strong[Tech Stack:] Qlik Sense
 
-    #summary[A LIMS upgrade removed the reporting capabilities the organization depended on. In a team of two, I built a new data model in Qlik that replicated and improved on the old reports — replacing static Excel exports with dynamic, explorable dashboards. Approximately 100 users gained back their insights within a couple of months.]
+    #summary[A LIMS upgrade removed the reporting capabilities the organization depended on. In a team of two, I built a new data model in Qlik that replicated and improved on the old reports, replacing static Excel exports with dynamic, explorable dashboards. About 100 users gained back their insights within a couple of months.]
 
   ],
   [
@@ -428,7 +428,7 @@ Experienced Analytics Consultant with a strong background in Business Intelligen
 
     #strong[Tech Stack:] Qlik Sense
 
-    #summary[My first consulting engagement. Vinnova had a mature Qlik Sense environment that needed more horsepower — new reports, refactored data models, and a platform upgrade driven by aging Windows servers. In a team of five, I built data compilation solutions for annual finance reporting delivered to regulatory authorities, where each year brings a new set of measures. Also led the Qlik Sense version upgrade across the environment.]
+    #summary[My first consulting engagement. Vinnova had a mature Qlik Sense environment that needed more horsepower. In a team of five, I built new reports, refactored data models, and compiled data for annual finance reporting delivered to regulatory authorities, where each year brings a new set of measures. Also led the Qlik Sense version upgrade across the environment.]
 
   ],
   [
@@ -484,9 +484,9 @@ Experienced Analytics Consultant with a strong background in Business Intelligen
   [
     #strong[Cytiva], Various Roles
 
-    - Analyst & Process Development Planner (2021–2023) — Built the analytics platform for the planning department (production, distribution, material) from scratch in Qlik. Delivered KPI dashboards for \~25 users and leadership, enabling data-driven decisions where previously there was no visibility. Still in use.
+    - Analyst & Process Development Planner (2021–2023): Built the analytics platform for the planning department (production, distribution, material) from scratch in Qlik. Delivered KPI dashboards for \~25 users and leadership, enabling data-driven decisions where there previously was none. Still in use.
 
-    - BI Support Specialist (2017–2021) — Built 'One Warehouse', a global Qlik app for inbound, outbound, and inventory management across warehouses in Sweden, the US, Japan, Hong Kong, and Singapore. Replaced a daily emailed spreadsheet with live analytics displayed on warehouse floor screens, becoming the most used app in Global Supply Chain. Drove weekly global meetings where each site reviewed their numbers. 500+ users, still in use.
+    - BI Support Specialist (2017–2021): Built 'One Warehouse', a global Qlik app for inbound, outbound, and inventory management across warehouses in Sweden, the US, Japan, Hong Kong, and Singapore. Replaced a daily emailed spreadsheet with live analytics displayed on warehouse floor screens. Became the most used app in Global Supply Chain and drove weekly global meetings where each site reviewed their numbers. 500+ users, still in use.
 
     - Logistics Specialist (2015–2017)
 
