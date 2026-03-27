@@ -9,3 +9,12 @@ MD026: false
 
 # Don't enforce line length (generated content)
 MD013: false
+
+# Allow multiple consecutive blank lines (RenderCV output)
+MD012: false
+
+# Allow headings without surrounding blank lines (RenderCV output)
+MD022: false
+
+# Allow multiple top-level headings (CV has multiple sections)
+MD025: false
