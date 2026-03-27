@@ -16,6 +16,13 @@ cv:
       - Experienced Analytics Consultant with a strong background in Business Intelligence, Data Engineering, and Analytics Engineering. Proficient in Microsoft Fabric, Qlik Sense, SQLMesh, and dlt, with a proven track record of delivering data-driven solutions that enhance business performance. Skilled in data modeling, ETL processes, and creating self-service analytics platforms. Committed to continuous improvement and leveraging data to drive strategic decision-making.
 
     open_source_contributions:
+      - name: Intent-Driven Development
+        summary: A development methodology with an accompanying Claude Code plugin.
+        date: 2025
+        highlights:
+          - Designing a methodology and building a Claude Code plugin to support intent-driven development workflows.
+        url: https://github.com/mattiasthalen/intent-driven-development
+
       - name: Qlik Parser
         summary: CLI tool written in Go that extracts Qlik scripts from binary files.
         date: 2025
