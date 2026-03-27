@@ -12,6 +12,10 @@ permissions:
   id-token: write
   pull-requests: read
 
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
 jobs:
   lint:
     name: Lint
@@ -111,3 +115,27 @@ jobs:
             --hydra '{"max_concurrency": 5}' \
             --no-enforce-https \
             --swap-urls "^/cv/:/"
+
+  deploy:
+    name: Deploy
+    if: github.event_name == 'push'
+    needs: validate
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Download site artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: site
+          path: _site/
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site/
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
