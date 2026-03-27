@@ -1,0 +1,11 @@
+# Allow inline HTML (RenderCV generates HTML in markdown)
+MD033: false
+
+# Allow duplicate headings (CV sections may repeat patterns)
+MD024: false
+
+# Allow trailing punctuation in headings
+MD026: false
+
+# Don't enforce line length (generated content)
+MD013: false
