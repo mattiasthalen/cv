@@ -1,0 +1,204 @@
+name: CI/CD
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+  pull-requests: read
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  lint:
+    name: Lint
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run Ruff lint
+        run: uvx ruff check .
+
+      - name: Run Ruff format check
+        run: uvx ruff format --check .
+
+      - name: Run markdownlint
+        uses: DavidAnson/markdownlint-cli2-action@v19
+        with:
+          globs: |
+            index.md
+            README.md
+
+  build:
+    name: Build
+    needs: lint
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build CV
+        run: make cv
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+          bundler-cache: true
+
+      - name: Build Jekyll site
+        run: bundle exec jekyll build
+        env:
+          JEKYLL_ENV: production
+
+      - name: Upload site artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: site
+          path: _site/
+
+      - name: Upload PDF artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: cv-pdf
+          path: "rendercv_output/Mattias_Thalén_CV.pdf"
+
+  validate:
+    name: Validate
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download site artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: site
+          path: _site/
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+
+      - name: Install htmlproofer
+        run: gem install html-proofer
+
+      - name: Run htmlproofer
+        run: |
+          htmlproofer _site/ \
+            --allow-missing-href \
+            --ignore-status-codes "999" \
+            --typhoeus '{"connecttimeout": 10, "timeout": 30}' \
+            --hydra '{"max_concurrency": 5}' \
+            --no-enforce-https \
+            --swap-urls "^/cv/:/"
+
+  deploy:
+    name: Deploy
+    if: github.event_name == 'push'
+    needs: validate
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Download site artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: site
+          path: _site/
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site/
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+  release:
+    name: Release
+    if: github.event_name == 'push'
+    needs: validate
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Determine version bump
+        id: version
+        run: |
+          # Get all commit messages in the merge
+          COMMIT_MSGS=$(git log --pretty=%B HEAD~1..HEAD)
+
+          # Get latest tag or default to v0.0.0
+          LATEST_TAG=$(git tag --sort=-v:refname | head -n 1)
+          if [ -z "$LATEST_TAG" ]; then
+            LATEST_TAG="v0.0.0"
+          fi
+
+          # Parse semver
+          VERSION=${LATEST_TAG#v}
+          MAJOR=$(echo "$VERSION" | cut -d. -f1)
+          MINOR=$(echo "$VERSION" | cut -d. -f2)
+          PATCH=$(echo "$VERSION" | cut -d. -f3)
+
+          # Determine bump type from commit messages
+          if echo "$COMMIT_MSGS" | grep -q "BREAKING CHANGE" || echo "$COMMIT_MSGS" | grep -qE "^[a-z]+(\(.*\))?!:"; then
+            MAJOR=$((MAJOR + 1))
+            MINOR=0
+            PATCH=0
+          elif echo "$COMMIT_MSGS" | grep -qE "^feat(\(.*\))?:"; then
+            MINOR=$((MINOR + 1))
+            PATCH=0
+          else
+            PATCH=$((PATCH + 1))
+          fi
+
+          NEW_TAG="v${MAJOR}.${MINOR}.${PATCH}"
+          echo "new_tag=$NEW_TAG" >> "$GITHUB_OUTPUT"
+          echo "Version bump: $LATEST_TAG -> $NEW_TAG"
+
+      - name: Download PDF artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: cv-pdf
+          path: artifacts/
+
+      - name: Create GitHub Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git tag "${{ steps.version.outputs.new_tag }}"
+          git push origin "${{ steps.version.outputs.new_tag }}"
+
+          gh release create "${{ steps.version.outputs.new_tag }}" \
+            --generate-notes \
+            --title "${{ steps.version.outputs.new_tag }}" \
+            artifacts/Mattias_Thalén_CV.pdf

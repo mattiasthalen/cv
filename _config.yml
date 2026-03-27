@@ -3,6 +3,7 @@ title: Mattias Thalén - Senior Data Engineer
 description: CV and portfolio of Mattias Thalén, Senior Data Engineer based in Uppsala, Sweden.
 baseurl: /cv
 url: https://mattiasthalen.github.io
+repository: mattiasthalen/cv
 exclude:
   - mattias_thalen__cv.yaml
   - pyproject.toml
@@ -10,3 +11,5 @@ exclude:
   - Makefile
   - rendercv_output/
   - .venv/
+  - vendor/
+  - docs/
