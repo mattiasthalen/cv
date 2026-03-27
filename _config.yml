@@ -10,3 +10,4 @@ exclude:
   - Makefile
   - rendercv_output/
   - .venv/
+  - vendor/
