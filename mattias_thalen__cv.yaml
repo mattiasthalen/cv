@@ -138,7 +138,7 @@ cv:
         date: 2024
         authors:
           - Qlik Sense
-        summary: The agency needed to move complex budget allocation logic out of the niche tool Planacy into a more maintainable Qlik platform. In a team of three, I rebuilt the allocation logic in Qlik and — as a side effect — documented the entire budgeting process as a Mermaid flowchart, giving the agency their first visual representation of the logic. The reaction was unanimous: "why didn't we do this before?"
+        summary: The agency needed to move complex budget allocation logic out of the niche tool Planacy into a more maintainable Qlik platform. In a team of three, I rebuilt the allocation logic in Qlik and — as a side effect — documented the entire budgeting process as a Mermaid flowchart, giving the agency their first visual representation of the logic.
 
       - title: Life Science Corporation
         date: 2024
