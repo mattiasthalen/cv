@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg-primary: #0D0D1A;
+  --color-bg-surface: #131325;
+  --color-bg-surface-hover: #1a1a35;
+  --color-border: #222;
+  --color-border-hover: #444;
+  --color-text-primary: #E8E8E8;
+  --color-text-secondary: #888;
+  --color-accent-primary: #4A9EFF;
+  --color-accent-green: #2ECC71;
+  --color-accent-orange: #F5A623;
+  --color-accent-red: #E94560;
+  --color-accent-purple: #9B59B6;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 4rem;
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  font-family: 'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, #4A9EFF, #7C3AED);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Expandable sections */
+.expandable-content {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.3s ease;
+}
+
+.expandable-content.expanded {
+  grid-template-rows: 1fr;
+}
+
+.expandable-inner {
+  overflow: hidden;
+}

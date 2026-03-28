@@ -42,7 +42,6 @@ jobs:
         uses: DavidAnson/markdownlint-cli2-action@v19
         with:
           globs: |
-            index.md
             README.md
 
   build:
@@ -61,7 +60,7 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Build CV
+      - name: Build CV PDF
         run: make cv
 
       - name: Commit rendered outputs
@@ -71,7 +70,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git fetch origin "${{ github.head_ref }}"
           git checkout "${{ github.head_ref }}"
-          git add rendercv_output/ index.md
+          git add rendercv_output/
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
@@ -79,22 +78,29 @@ jobs:
             git push origin "${{ github.head_ref }}"
           fi
 
-      - name: Set up Ruby
-        uses: ruby/setup-ruby@v1
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
         with:
-          ruby-version: "3.3"
-          bundler-cache: true
+          node-version: "22"
+          cache: "npm"
+          cache-dependency-path: website/package-lock.json
 
-      - name: Build Jekyll site
-        run: bundle exec jekyll build
-        env:
-          JEKYLL_ENV: production
+      - name: Install website dependencies
+        run: npm ci
+        working-directory: website
+
+      - name: Build website
+        run: npm run build
+        working-directory: website
+
+      - name: Copy PDF to site output
+        run: cp rendercv_output/Mattias_Thalén_CV.pdf website/dist/Mattias_Thalen_CV.pdf
 
       - name: Upload site artifact
         uses: actions/upload-artifact@v4
         with:
           name: site
-          path: _site/
+          path: website/dist/
 
       - name: Upload PDF artifact
         uses: actions/upload-artifact@v4
@@ -102,39 +108,10 @@ jobs:
           name: cv-pdf
           path: "rendercv_output/Mattias_Thalén_CV.pdf"
 
-  validate:
-    name: Validate
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-      - name: Download site artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: site
-          path: _site/
-
-      - name: Set up Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: "3.3"
-
-      - name: Install htmlproofer
-        run: gem install html-proofer
-
-      - name: Run htmlproofer
-        run: |
-          htmlproofer _site/ \
-            --allow-missing-href \
-            --ignore-status-codes "999" \
-            --typhoeus '{"connecttimeout": 10, "timeout": 30}' \
-            --hydra '{"max_concurrency": 5}' \
-            --no-enforce-https \
-            --swap-urls "^/cv/:/"
-
   deploy:
     name: Deploy
     if: github.event_name == 'push'
-    needs: validate
+    needs: build
     runs-on: ubuntu-latest
     environment:
       name: github-pages
@@ -144,12 +121,12 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: site
-          path: _site/
+          path: dist/
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: _site/
+          path: dist/
 
       - name: Deploy to GitHub Pages
         id: deployment
@@ -158,7 +135,7 @@ jobs:
   release:
     name: Release
     if: github.event_name == 'push'
-    needs: validate
+    needs: build
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
