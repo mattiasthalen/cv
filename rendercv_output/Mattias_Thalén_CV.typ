@@ -78,7 +78,7 @@
   date: datetime(
     year: 2026,
     month: 3,
-    day: 27,
+    day: 28,
   ),
 )
 
@@ -109,23 +109,6 @@
 Experienced Analytics Consultant with a strong background in Business Intelligence, Data Engineering, and Analytics Engineering. Proficient in Microsoft Fabric, Qlik Sense, SQLMesh, and dlt, with a proven track record of delivering data-driven solutions that enhance business performance. Skilled in data modeling, ETL processes, and creating self-service analytics platforms. Committed to continuous improvement and leveraging data to drive strategic decision-making.
 
 == Open Source Contributions
-
-#regular-entry(
-  [
-    #strong[Intent-Driven Development]
-
-    #link("https://github.com/mattiasthalen/intent-driven-development")[github.com\/mattiasthalen\/intent-driven-development]
-
-    #summary[A development methodology with an accompanying Claude Code plugin.]
-
-    - Designing a methodology and building a Claude Code plugin to support intent-driven development workflows.
-
-  ],
-  [
-    2025
-
-  ],
-)
 
 #regular-entry(
   [
@@ -452,6 +435,21 @@ Experienced Analytics Consultant with a strong background in Business Intelligen
   ],
 )
 
+#regular-entry(
+  [
+    #strong[Cytiva — One Warehouse]
+
+    #strong[Tech Stack:] Qlik Sense
+
+    #summary[Global Supply Chain had no BI for warehouse operations. Everything was built from a sales perspective. Solo, I built a global Qlik app covering inbound, outbound, and inventory management for warehouses in Sweden, the US, Japan, Hong Kong, and Singapore. Data was sourced from Oracle WMS. Replaced a daily emailed spreadsheet with live analytics displayed on warehouse floor screens. Became the most used app in Global Supply Chain and drove weekly global meetings where each site reviewed their numbers. 500+ users, still in use.]
+
+  ],
+  [
+    2017
+
+  ],
+)
+
 == Experience
 
 #regular-entry(
@@ -486,7 +484,7 @@ Experienced Analytics Consultant with a strong background in Business Intelligen
 
     - Analyst & Process Development Planner (2021–2023): Built the analytics platform for the planning department (production, distribution, material) from scratch in Qlik. Delivered KPI dashboards for \~25 users and leadership, enabling data-driven decisions where there previously was none. Still in use.
 
-    - BI Support Specialist (2017–2021): Built 'One Warehouse', a global Qlik app for inbound, outbound, and inventory management across warehouses in Sweden, the US, Japan, Hong Kong, and Singapore. Replaced a daily emailed spreadsheet with live analytics displayed on warehouse floor screens. Became the most used app in Global Supply Chain and drove weekly global meetings where each site reviewed their numbers. 500+ users, still in use.
+    - BI Support Specialist (2017–2021)
 
     - Logistics Specialist (2015–2017)
 
