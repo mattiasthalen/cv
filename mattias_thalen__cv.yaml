@@ -23,25 +23,33 @@ cv:
           - Built a CLI tool to parse and extract scripts from Qlik binary formats.
         url: https://github.com/mattiasthalen/qlik-parser
 
+      - name: Bruin
+        summary: Open-source data pipeline tool.
+        date: 2025
+        highlights:
+          - Added support for Microsoft Fabric.
+          - Added Azure Key Vault support.
+        url: https://github.com/bruin-data/bruin
+
       - name: SQLGlot
         summary: Open-source SQL parser and transpiler.
         date: 2025
         highlights:
-          - Added support for Microsoft Fabric SQL dialect.
+          - Added the Microsoft Fabric SQL dialect.
         url: https://github.com/tobymao/sqlglot
 
       - name: SQLMesh
         summary: Open-source data transformation and orchestration tool.
         date: 2025
         highlights:
-          - Added support for Microsoft Fabric.
+          - Added Microsoft Fabric as a supported platform.
         url: https://github.com/TobikoData/sqlmesh
 
       - name: dltHub
         summary: Open-source data ingestion framework.
         date: 2025
         highlights:
-          -  Added support for Microsoft Fabric.
+          - Added Microsoft Fabric as a destination.
         url: https://github.com/dlt-hub/dlt
 
     certifications:
