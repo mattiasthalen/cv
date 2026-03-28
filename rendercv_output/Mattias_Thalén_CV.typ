@@ -475,7 +475,7 @@ Analytics Consultant with 13 years of hands-on experience in supply chain and ma
 
     - Analyst & Process Development Planner (2021–2023): Built the analytics platform for the planning department (production, distribution, material) from scratch in Qlik. Delivered KPI dashboards for \~25 users and leadership, enabling data-driven decisions where there previously was none. Still in use.
 
-    - BI Support Specialist (2017–2021): Built global analytics solutions for warehouse operations, including the 'One Warehouse' app. 500+ users across five countries.
+    - BI Support Specialist (2017–2021): Developed global analytics solutions for supply chain operations.
 
     - Logistics Specialist (2015–2017): Handled exports, monitoring warehouse shipments and preparing export documentation.
 
