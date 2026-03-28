@@ -130,7 +130,7 @@ Feb 2023
 
 **Technologies:** Microsoft Fabric, Qlik Sense, Azure Data Factory, dbt, SQLMesh, dlt
 
-# Featured Projects
+# Career Defining Project
 ## **Cytiva — One Warehouse**
 
 2017

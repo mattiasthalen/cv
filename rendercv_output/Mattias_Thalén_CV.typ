@@ -287,7 +287,7 @@ Analytics Consultant with 13 years of hands-on experience in supply chain and ma
 
 #strong[Technologies:] Microsoft Fabric, Qlik Sense, Azure Data Factory, dbt, SQLMesh, dlt
 
-== Featured Projects
+== Career Defining Project
 
 #regular-entry(
   [
