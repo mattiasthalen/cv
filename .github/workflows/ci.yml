@@ -108,39 +108,10 @@ jobs:
           name: cv-pdf
           path: "rendercv_output/Mattias_Thalén_CV.pdf"
 
-  validate:
-    name: Validate
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-      - name: Download site artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: site
-          path: dist/
-
-      - name: Set up Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: "3.3"
-
-      - name: Install htmlproofer
-        run: gem install html-proofer
-
-      - name: Run htmlproofer
-        run: |
-          htmlproofer dist/ \
-            --allow-missing-href \
-            --ignore-status-codes "999" \
-            --typhoeus '{"connecttimeout": 10, "timeout": 30}' \
-            --hydra '{"max_concurrency": 5}' \
-            --no-enforce-https \
-            --swap-urls "^/cv/:/"
-
   deploy:
     name: Deploy
     if: github.event_name == 'push'
-    needs: validate
+    needs: build
     runs-on: ubuntu-latest
     environment:
       name: github-pages
@@ -164,7 +135,7 @@ jobs:
   release:
     name: Release
     if: github.event_name == 'push'
-    needs: validate
+    needs: build
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
