@@ -139,11 +139,6 @@ cv:
           - Qlik Sense
         summary: A LIMS upgrade removed the reporting capabilities the organization depended on. In a team of two, I built a new data model in Qlik that replicated and improved on the old reports, replacing static Excel exports with dynamic, explorable dashboards. About 100 users gained back their insights within a couple of months.
 
-      - title: Sveriges Kommuner & Regioner
-        date: 2024
-        authors:
-          - QlikView
-        summary: QlikView developer and system administrator. Developed solutions for comprehensive call statistics analytics.
 
       - title: Vinnova – Sweden's Innovation Agency
         date: 2023
