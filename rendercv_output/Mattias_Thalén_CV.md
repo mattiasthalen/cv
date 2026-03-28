@@ -7,7 +7,7 @@
 
 
 # Summary
-Experienced Analytics Consultant with a strong background in Business Intelligence, Data Engineering, and Analytics Engineering. Proficient in Microsoft Fabric, Qlik Sense, SQLMesh, and dlt, with a proven track record of delivering data-driven solutions that enhance business performance. Skilled in data modeling, ETL processes, and creating self-service analytics platforms. Committed to continuous improvement and leveraging data to drive strategic decision-making.
+Analytics Consultant building data platforms and migrating legacy BI environments to modern stacks, with LLMs integrated into the daily development workflow. Active open-source contributor to SQLMesh, SQLGlot, and dlt. 13 years in supply chain and manufacturing, from the warehouse floor through an Oracle ERP rollout to global analytics platforms serving 500+ users.
 
 # Open Source Contributions
 ## **SQLGlot**
@@ -18,7 +18,7 @@ Experienced Analytics Consultant with a strong background in Business Intelligen
 
 Open-source SQL parser and transpiler.
 
-- Added support for Microsoft Fabric SQL dialect.
+- Added the Microsoft Fabric SQL dialect across 9 merged PRs. Shipped in v26.30.0. A required upstream dependency for SQLMesh Fabric support.
 
 
 
@@ -30,19 +30,45 @@ Open-source SQL parser and transpiler.
 
 Open-source data transformation and orchestration tool.
 
-- Added support for Microsoft Fabric.
+- Built the Microsoft Fabric connector. Shipped in v0.210.0, with follow-up improvements in v0.228.0.
 
 
 
-## **dltHub**
+## **dlt**
 
 2025
 
 [github.com/dlt-hub/dlt](https://github.com/dlt-hub/dlt)
 
-Open-source data ingestion framework.
+Open-source data ingestion framework by dltHub.
 
-- Added support for Microsoft Fabric.
+- Added the Microsoft Fabric warehouse destination with Lakehouse staging, enabling SCD2. Shipped in v1.21.0.
+
+
+
+## **Bruin**
+
+2026
+
+[github.com/bruin-data/bruin](https://github.com/bruin-data/bruin)
+
+Open-source data pipeline tool.
+
+- Added Microsoft Fabric Warehouse support. Shipped in v0.11.442.
+
+- Added Azure Key Vault as a secrets backend. Shipped in v0.11.443.
+
+
+
+## **Qlik Parser**
+
+2025
+
+[github.com/mattiasthalen/qlik-parser](https://github.com/mattiasthalen/qlik-parser)
+
+CLI tool written in Go that extracts Qlik scripts from binary files.
+
+- Enables migration teams to extract and review Qlik logic without access to Qlik tooling. Built entirely with Claude Code.
 
 
 
@@ -102,16 +128,27 @@ Feb 2023
 
 **Languages:** Python, SQL
 
-**Technologies:** Microsoft Fabric, Qlik Sense, dbt, SQLMesh, dlt
+**Technologies:** Microsoft Fabric, Qlik Sense, Azure Data Factory, dbt, SQLMesh, dlt
 
-# Projects
-## **Avarn Security — Qlik to Fabric Migration**
+# Featured Project
+## **Cytiva - One Warehouse**
+
+2017
+
+**Tech Stack:** Qlik Sense
+
+Global Supply Chain had no BI for warehouse operations; all existing reporting was sales-focused. As the sole developer, I built a global Qlik app covering inbound, outbound, and inventory management for warehouses in Sweden, the US, Japan, Hong Kong, and Singapore. Data was sourced from Oracle WMS. Replaced a daily emailed spreadsheet with live analytics displayed on warehouse floor screens. Became the most-used app in Global Supply Chain and drove weekly global meetings where each site reviewed their numbers. 500+ users, still in use.
+
+
+
+# Project History
+## **Avarn Security - Qlik to Fabric Migration**
 
 2026
 
-**Tech Stack:** Microsoft Fabric, dlt, SQLMesh
+**Tech Stack:** Microsoft Fabric, dlt, dbt
 
-Migration of ELT processes from Qlik to Microsoft Fabric. Using dlt for ingestion and SQLMesh for transformation, following a medallion architecture. Qlik remains the BI layer.
+The client wanted to future-proof their data platform for ML/AI capabilities. Serving as architect and Qlik/Fabric SME alongside Atea Norway, I am designing the migration of the ETL layer for their P&L solution (~15 data sources) from Qlik into Microsoft Fabric. A pilot Power BI app is being built in parallel to validate the new platform for end users.
 
 
 
@@ -121,7 +158,7 @@ Migration of ELT processes from Qlik to Microsoft Fabric. Using dlt for ingestio
 
 **Tech Stack:** Microsoft Fabric, dlt, SQLMesh, Power BI
 
-Full migration from QlikView to Microsoft Fabric. Using dlt for ingestion and SQLMesh for transformation, following a medallion architecture. Power BI for consumption.
+An international coffee company facing QlikView end-of-life needed a full platform migration. As lead developer in a team of six, I define the architecture and mentor other developers while migrating ~20 QlikView apps across finance, operations, and sales into Microsoft Fabric with Power BI. The new platform enables self-service analytics and ML/AI capabilities that were not possible on QlikView.
 
 
 
@@ -131,7 +168,7 @@ Full migration from QlikView to Microsoft Fabric. Using dlt for ingestion and SQ
 
 **Tech Stack:** Microsoft Fabric, dlt, SQLMesh
 
-Developed the architecture using dlt (dltHub) for rapid and stable ingestion of source data, and SQLMesh (dbt alternative) for transforming the raw data up until consumption. Follows a medallion architecture where we first historize the raw data, then organize it around core business concepts using the Hook methodology and finally deliver a self-service unified star schema to be consumed in PowerBI / Excel.
+A retail company with a brand-new ERP (Omnium) had no analytics. In a team of three, I designed and built the data platform from the ground up, covering ingestion, historization, and a self-service consumption layer. Delivered a working foundation; the client paused the project to complete their ERP migration.
 
 
 
@@ -141,17 +178,7 @@ Developed the architecture using dlt (dltHub) for rapid and stable ingestion of 
 
 **Tech Stack:** Qlik Sense, dlt
 
-Developed the architecture using dlt (dltHub) for ingestion. Qlik was used for the transformation. Follows the Analytical Data Storage System, where the first layer is according to how the system data looks. The middle layer is centered around how the business looks at the data; this is done by organizing it around core business concepts (the Hook Methodology). The last, and final layer is according to requirements, where we opted for the Unified Start Schema, due to it’s rapid and self-service centered core values.
-
-
-
-## **Avarn Security — Maintenance**
-
-2025
-
-**Tech Stack:** Qlik Sense, QlikView
-
-Maintenace of existing solution, both front- and back-end.
+HR lacked visibility into workforce skills across the organization. As the sole developer, I built a talent analytics solution integrating Visma HR, JDE, Maximo, and a homegrown talent system into Qlik. The solution maps skills, grades, and credential expirations across 10 departments, enabling HR to spot skill gaps and plan hiring and training. Adopted by ~200 employees.
 
 
 
@@ -161,17 +188,17 @@ Maintenace of existing solution, both front- and back-end.
 
 **Tech Stack:** Azure SQL, Azure Data Factory, dlt
 
-Maintenance and new development of existing solution. Focusing on good architecture and a layered approach. I.e., medallion architecture / analytical data storage system.
+An existing Azure-based data warehouse had unreliable Data Factory pipelines and slow stored procedures. Working solo, I introduced dlt to replace complex unnesting logic and refactored key stored procedures, cutting execution time from ~10 hours to ~10 minutes. The platform serves ~140 users across 7 dealerships with sales, invoicing, and HR analytics.
 
 
 
-## **Swedish Government Agency**
+## **Statens Servicecenter**
 
 2024
 
 **Tech Stack:** Qlik Sense
 
-Qlik Sense developer and system administrator. Migrated business logic from Planacy to Qlik platform, improving reporting capabilities.
+The agency needed to move complex budget allocation logic out of the niche tool Planacy into a more maintainable Qlik platform. In a team of three, I rebuilt the allocation logic in Qlik and documented the entire budgeting process as a Mermaid flowchart, giving the agency their first visual representation of the logic.
 
 
 
@@ -181,37 +208,27 @@ Qlik Sense developer and system administrator. Migrated business logic from Plan
 
 **Tech Stack:** Qlik Sense
 
-Qlik Sense development and system administration. Executed data extraction migration from LIMS to Qlik, streamlining analytics processes.
+A LIMS upgrade removed the reporting capabilities the organization depended on. In a team of two, I built a new data model in Qlik that replicated and improved on the old reports, replacing static Excel exports with dynamic, explorable dashboards. 80-100 users regained their reporting within 8 weeks.
 
 
 
-## **Sveriges Kommuner & Regioner**
-
-2024
-
-**Tech Stack:** QlikView
-
-QlikView developer and system administrator. Developed solutions for comprehensive call statistics analytics.
-
-
-
-## **Vinnova – Sweden's Innovation Agency**
+## **Vinnova - Sweden's Innovation Agency**
 
 2023
 
 **Tech Stack:** Qlik Sense
 
-Qlik Sense developer and system administrator. Created data compilation solutions for annual finance reporting requirements. In charge of upgrading Qlik Sense.
+Vinnova had a mature Qlik Sense environment that needed expanded reporting and ongoing maintenance. In a team of five, I built new reports, refactored data models, and compiled data for annual finance reporting delivered to regulatory authorities, with metrics that change each reporting cycle. Also led the Qlik Sense version upgrade across ~20 apps and 100 users.
 
 
 
-## **Internationella Engelska Skolan**
+## **Cytiva - Project Harmony**
 
-2023
+2014
 
-**Tech Stack:** QlikView
+**Tech Stack:** Oracle
 
-Provided expert QlikView maintenance and development support, ensuring system stability and performance.
+A global project to onboard all Cytiva warehouses to Oracle. As the warehouse operations representative for the template organization in Uppsala, I defined WMS rules, labels, and processes. Traveled to the US for the second warehouse go-live, after which the template was complete. This was where I first learned Oracle SQL.
 
 
 
@@ -236,7 +253,7 @@ Provided expert QlikView maintenance and development support, ensuring system st
 
 
 
-## **Cytiva**, Various Roles
+## **Cytiva**, Analyst & Process Development Planner
 
 2010 – 2023
 
@@ -244,14 +261,12 @@ Provided expert QlikView maintenance and development support, ensuring system st
 
 13 years
 
-- Analyst & Process Development Planner (2021–2023)
+- Analyst & Process Development Planner (2021–2023): Built the analytics platform for the planning department (production, distribution, material) from scratch in Qlik. Delivered KPI dashboards for ~25 users and leadership, enabling data-driven decisions where none existed. Still in use.
 
-- BI Support Specialist (2017–2021)
+- BI Support Specialist (2017–2021): Built the One Warehouse suite covering fulfillment (inbound, outbound, in transit), inventory management (physical and cycle count), and a near-real-time operations dashboard. Also ran a machine learning POC for QA/QC that identified test groupings, helping the team prioritize focus areas.
 
-- Logistics Specialist (2015–2017)
+- Logistics Specialist (2015–2017): Managed exports, including monitoring warehouse shipments and preparing export documentation.
 
-- Deviation Handler (2015)
-
-- Warehouse Associate (2010–2015)
+- Warehouse Associate & Deviation Handler (2010–2015): Started picking, packing, and shipping orders. Built a jQuery web app to automate time reporting, used by 20 consultants. Selected for Project Harmony, onboarding warehouses to Oracle, where I first learned SQL. Later handled warehouse process deviations, helped set up the 3PL during outsourcing, and started building Qlik apps as side projects.
 
 
