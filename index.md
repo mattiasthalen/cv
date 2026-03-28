@@ -194,16 +194,6 @@ A LIMS upgrade removed the reporting capabilities the organization depended on. 
 
 
 
-## **Sveriges Kommuner & Regioner**
-
-2024
-
-**Tech Stack:** QlikView
-
-QlikView developer and system administrator. Developed solutions for comprehensive call statistics analytics.
-
-
-
 ## **Vinnova – Sweden's Innovation Agency**
 
 2023
@@ -211,16 +201,6 @@ QlikView developer and system administrator. Developed solutions for comprehensi
 **Tech Stack:** Qlik Sense
 
 My first consulting engagement. Vinnova had a mature Qlik Sense environment that needed more horsepower. In a team of five, I built new reports, refactored data models, and compiled data for annual finance reporting delivered to regulatory authorities, where each year brings a new set of measures. Also led the Qlik Sense version upgrade across the environment.
-
-
-
-## **Internationella Engelska Skolan**
-
-2023
-
-**Tech Stack:** QlikView
-
-Provided expert QlikView maintenance and development support, ensuring system stability and performance.
 
 
 

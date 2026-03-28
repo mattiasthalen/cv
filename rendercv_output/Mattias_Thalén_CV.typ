@@ -392,41 +392,11 @@ Analytics Consultant with 13 years of hands-on experience in supply chain and ma
 
 #regular-entry(
   [
-    #strong[Sveriges Kommuner & Regioner]
-
-    #strong[Tech Stack:] QlikView
-
-    #summary[QlikView developer and system administrator. Developed solutions for comprehensive call statistics analytics.]
-
-  ],
-  [
-    2024
-
-  ],
-)
-
-#regular-entry(
-  [
     #strong[Vinnova – Sweden's Innovation Agency]
 
     #strong[Tech Stack:] Qlik Sense
 
     #summary[My first consulting engagement. Vinnova had a mature Qlik Sense environment that needed more horsepower. In a team of five, I built new reports, refactored data models, and compiled data for annual finance reporting delivered to regulatory authorities, where each year brings a new set of measures. Also led the Qlik Sense version upgrade across the environment.]
-
-  ],
-  [
-    2023
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[Internationella Engelska Skolan]
-
-    #strong[Tech Stack:] QlikView
-
-    #summary[Provided expert QlikView maintenance and development support, ensuring system stability and performance.]
 
   ],
   [
