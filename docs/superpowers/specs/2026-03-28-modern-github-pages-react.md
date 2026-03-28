@@ -229,10 +229,12 @@ interface CV {
 
 ---
 
-## Open Questions
+## Decisions
 
-1. **Tailwind vs CSS Modules?** Tailwind speeds up development, but CSS Modules are more explicit. Preference?
-2. **Animation library?** Framer Motion for enter/exit animations? Or keep it CSS-only like the IDD page?
-3. **Dark mode only or toggle?** The IDD page is dark-only. A toggle adds complexity. Dark-only fits the modern vibe.
-4. **Keep profile photo prominent or minimize?** Current site has it large in hero. Modern trend is smaller or avatar-style.
-5. **PDF download button style?** Prominent CTA in hero vs subtle link in nav?
+| # | Question | Decision |
+|---|----------|----------|
+| 1 | CSS approach | **Tailwind CSS** — utility-first, rapid iteration, built-in design tokens |
+| 2 | Animations | **Pure CSS** — transitions and keyframes only, no library dependency |
+| 3 | Theme | **Dark only** — cohesive modern developer aesthetic, no toggle |
+| 4 | Profile photo | **Compact avatar** (80–100px) — circular with subtle accent ring/glow |
+| 5 | PDF download | **Hero CTA button** — prominent "Download CV" button alongside social links |
