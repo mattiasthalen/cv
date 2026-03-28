@@ -106,7 +106,7 @@
 
 == Summary
 
-Analytics Consultant with 13 years in supply chain and manufacturing before moving into consulting. Started on the warehouse floor, learned SQL through an Oracle ERP rollout, and grew into building global analytics platforms used by 500+ users. Now consulting, building data platforms and migrating legacy BI environments to modern stacks, using LLMs as a daily development tool. Active open source contributor to SQLMesh, dlt, and SQLGlot.
+Analytics Consultant building data platforms and migrating legacy BI environments to modern stacks, with LLMs integrated into the daily development workflow. Active open-source contributor to SQLMesh, SQLGlot, and dlt. 13 years in supply chain and manufacturing, from the warehouse floor through an Oracle ERP rollout to global analytics platforms serving 500+ users.
 
 == Open Source Contributions
 
@@ -118,7 +118,7 @@ Analytics Consultant with 13 years in supply chain and manufacturing before movi
 
     #summary[Open-source SQL parser and transpiler.]
 
-    - Added the Microsoft Fabric SQL dialect, a T-SQL variant needed for SQLMesh to target Fabric.
+    - Added the Microsoft Fabric SQL dialect across 9 merged PRs. Shipped in v26.30.0. A required upstream dependency for SQLMesh Fabric support.
 
   ],
   [
@@ -135,7 +135,7 @@ Analytics Consultant with 13 years in supply chain and manufacturing before movi
 
     #summary[Open-source data transformation and orchestration tool.]
 
-    - Built the Microsoft Fabric connector.
+    - Built the Microsoft Fabric connector. Shipped in v0.210.0, with follow-up improvements in v0.228.0.
 
   ],
   [
@@ -146,13 +146,13 @@ Analytics Consultant with 13 years in supply chain and manufacturing before movi
 
 #regular-entry(
   [
-    #strong[dltHub]
+    #strong[dlt]
 
     #link("https://github.com/dlt-hub/dlt")[github.com\/dlt-hub\/dlt]
 
-    #summary[Open-source data ingestion framework.]
+    #summary[Open-source data ingestion framework by dltHub.]
 
-    - Added the Microsoft Fabric warehouse destination with Lakehouse staging, enabling SCD2.
+    - Added the Microsoft Fabric warehouse destination with Lakehouse staging, enabling SCD2. Shipped in v1.21.0.
 
   ],
   [
@@ -169,13 +169,13 @@ Analytics Consultant with 13 years in supply chain and manufacturing before movi
 
     #summary[Open-source data pipeline tool.]
 
-    - Added support for Microsoft Fabric.
+    - Added Microsoft Fabric Warehouse support. Shipped in v0.11.442.
 
-    - Added Azure Key Vault support.
+    - Added Azure Key Vault as a secrets backend. Shipped in v0.11.443.
 
   ],
   [
-    2025
+    2026
 
   ],
 )
@@ -287,15 +287,15 @@ Analytics Consultant with 13 years in supply chain and manufacturing before movi
 
 #strong[Technologies:] Microsoft Fabric, Qlik Sense, Azure Data Factory, dbt, SQLMesh, dlt
 
-== Career Defining Project
+== Featured Project
 
 #regular-entry(
   [
-    #strong[Cytiva — One Warehouse]
+    #strong[Cytiva - One Warehouse]
 
     #strong[Tech Stack:] Qlik Sense
 
-    #summary[Global Supply Chain had no BI for warehouse operations. Everything was built from a sales perspective. Solo, I built a global Qlik app covering inbound, outbound, and inventory management for warehouses in Sweden, the US, Japan, Hong Kong, and Singapore. Data was sourced from Oracle WMS. Replaced a daily emailed spreadsheet with live analytics displayed on warehouse floor screens. Became the most used app in Global Supply Chain and drove weekly global meetings where each site reviewed their numbers. 500+ users, still in use.]
+    #summary[Global Supply Chain had no BI for warehouse operations; all existing reporting was sales-focused. As the sole developer, I built a global Qlik app covering inbound, outbound, and inventory management for warehouses in Sweden, the US, Japan, Hong Kong, and Singapore. Data was sourced from Oracle WMS. Replaced a daily emailed spreadsheet with live analytics displayed on warehouse floor screens. Became the most-used app in Global Supply Chain and drove weekly global meetings where each site reviewed their numbers. 500+ users, still in use.]
 
   ],
   [
@@ -308,11 +308,11 @@ Analytics Consultant with 13 years in supply chain and manufacturing before movi
 
 #regular-entry(
   [
-    #strong[Avarn Security — Qlik to Fabric Migration]
+    #strong[Avarn Security - Qlik to Fabric Migration]
 
     #strong[Tech Stack:] Microsoft Fabric, dlt, dbt
 
-    #summary[The client wanted to future-proof their data platform for ML\/AI capabilities. Serving as architect and Qlik\/Fabric SME alongside Atea NO, I am designing the migration of the ETL layer for their P&L solution (\~15 data sources) from Qlik into Microsoft Fabric. A pilot Power BI app is being built in parallel to validate the new platform for end users.]
+    #summary[The client wanted to future-proof their data platform for ML\/AI capabilities. Serving as architect and Qlik\/Fabric SME alongside Atea Norway, I am designing the migration of the ETL layer for their P&L solution (\~15 data sources) from Qlik into Microsoft Fabric. A pilot Power BI app is being built in parallel to validate the new platform for end users.]
 
   ],
   [
@@ -327,7 +327,7 @@ Analytics Consultant with 13 years in supply chain and manufacturing before movi
 
     #strong[Tech Stack:] Microsoft Fabric, dlt, SQLMesh, Power BI
 
-    #summary[An international coffee company facing QlikView end-of-life needed a full platform migration. Leading the architecture and development in a team of six, I am migrating \~20 QlikView apps spanning finance, operations, and sales into Microsoft Fabric with Power BI. The new platform enables self-service analytics and ML\/AI capabilities that were not possible on QlikView.]
+    #summary[An international coffee company facing QlikView end-of-life needed a full platform migration. As lead developer in a team of six, I define the architecture and mentor other developers while migrating \~20 QlikView apps across finance, operations, and sales into Microsoft Fabric with Power BI. The new platform enables self-service analytics and ML\/AI capabilities that were not possible on QlikView.]
 
   ],
   [
@@ -342,7 +342,7 @@ Analytics Consultant with 13 years in supply chain and manufacturing before movi
 
     #strong[Tech Stack:] Microsoft Fabric, dlt, SQLMesh
 
-    #summary[A retail company with a brand-new ERP (Omnium) had no analytics at all. In a team of three, I designed and built the data platform from the ground up, covering ingestion, historization, and a self-service consumption layer. Delivered a working foundation; the client paused the project to complete their ERP migration.]
+    #summary[A retail company with a brand-new ERP (Omnium) had no analytics. In a team of three, I designed and built the data platform from the ground up, covering ingestion, historization, and a self-service consumption layer. Delivered a working foundation; the client paused the project to complete their ERP migration.]
 
   ],
   [
@@ -357,7 +357,7 @@ Analytics Consultant with 13 years in supply chain and manufacturing before movi
 
     #strong[Tech Stack:] Qlik Sense, dlt
 
-    #summary[HR lacked visibility into workforce skills across the organization. Solo, I built a talent analytics solution integrating Visma HR, JDE, Maximo, and a homegrown talent system into Qlik. The solution maps skills, grades, and credential expirations across 10 departments, enabling HR to spot skill gaps and plan hiring and training. Adopted by \~200 employees.]
+    #summary[HR lacked visibility into workforce skills across the organization. As the sole developer, I built a talent analytics solution integrating Visma HR, JDE, Maximo, and a homegrown talent system into Qlik. The solution maps skills, grades, and credential expirations across 10 departments, enabling HR to spot skill gaps and plan hiring and training. Adopted by \~200 employees.]
 
   ],
   [
@@ -372,7 +372,7 @@ Analytics Consultant with 13 years in supply chain and manufacturing before movi
 
     #strong[Tech Stack:] Azure SQL, Azure Data Factory, dlt
 
-    #summary[An existing Azure-based data warehouse suffered from poorly built Data Factory pipelines and slow stored procedures. I introduced dlt to replace brittle unnesting logic and refactored key stored procedures, cutting execution time from \~10 hours to \~10 minutes. The platform serves \~140 users across 7 dealerships with sales, invoicing, and HR analytics.]
+    #summary[An existing Azure-based data warehouse had unreliable Data Factory pipelines and slow stored procedures. Working solo, I introduced dlt to replace complex unnesting logic and refactored key stored procedures, cutting execution time from \~10 hours to \~10 minutes. The platform serves \~140 users across 7 dealerships with sales, invoicing, and HR analytics.]
 
   ],
   [
@@ -383,11 +383,11 @@ Analytics Consultant with 13 years in supply chain and manufacturing before movi
 
 #regular-entry(
   [
-    #strong[Swedish Government Agency]
+    #strong[Statens Servicecenter]
 
     #strong[Tech Stack:] Qlik Sense
 
-    #summary[The agency needed to move complex budget allocation logic out of the niche tool Planacy into a more maintainable Qlik platform. In a team of three, I rebuilt the allocation logic in Qlik and also documented the entire budgeting process as a Mermaid flowchart, giving the agency their first visual representation of the logic.]
+    #summary[The agency needed to move complex budget allocation logic out of the niche tool Planacy into a more maintainable Qlik platform. In a team of three, I rebuilt the allocation logic in Qlik and documented the entire budgeting process as a Mermaid flowchart, giving the agency their first visual representation of the logic.]
 
   ],
   [
@@ -402,7 +402,7 @@ Analytics Consultant with 13 years in supply chain and manufacturing before movi
 
     #strong[Tech Stack:] Qlik Sense
 
-    #summary[A LIMS upgrade removed the reporting capabilities the organization depended on. In a team of two, I built a new data model in Qlik that replicated and improved on the old reports, replacing static Excel exports with dynamic, explorable dashboards. 80-100 users gained back their insights within 8 weeks.]
+    #summary[A LIMS upgrade removed the reporting capabilities the organization depended on. In a team of two, I built a new data model in Qlik that replicated and improved on the old reports, replacing static Excel exports with dynamic, explorable dashboards. 80-100 users regained their reporting within 8 weeks.]
 
   ],
   [
@@ -413,11 +413,11 @@ Analytics Consultant with 13 years in supply chain and manufacturing before movi
 
 #regular-entry(
   [
-    #strong[Vinnova – Sweden's Innovation Agency]
+    #strong[Vinnova - Sweden's Innovation Agency]
 
     #strong[Tech Stack:] Qlik Sense
 
-    #summary[My first consulting engagement. Vinnova had a mature Qlik Sense environment that needed more horsepower. In a team of five, I built new reports, refactored data models, and compiled data for annual finance reporting delivered to regulatory authorities, where each year brings a new set of regulatory metrics. Also led the Qlik Sense version upgrade across \~20 apps and 100 users.]
+    #summary[Vinnova had a mature Qlik Sense environment that needed expanded reporting and ongoing maintenance. In a team of five, I built new reports, refactored data models, and compiled data for annual finance reporting delivered to regulatory authorities, with metrics that change each reporting cycle. Also led the Qlik Sense version upgrade across \~20 apps and 100 users.]
 
   ],
   [
@@ -428,11 +428,11 @@ Analytics Consultant with 13 years in supply chain and manufacturing before movi
 
 #regular-entry(
   [
-    #strong[Cytiva — Project Harmony]
+    #strong[Cytiva - Project Harmony]
 
     #strong[Tech Stack:] Oracle
 
-    #summary[A global project to onboard all Cytiva warehouses to Oracle. As the warehouse operations representative for the template organization in Uppsala, I defined WMS rules, labels, and processes. Traveled to the US for the second warehouse go-live, after which the template was complete. This project gave me my first hands-on experience with Oracle SQL.]
+    #summary[A global project to onboard all Cytiva warehouses to Oracle. As the warehouse operations representative for the template organization in Uppsala, I defined WMS rules, labels, and processes. Traveled to the US for the second warehouse go-live, after which the template was complete. This was where I first learned Oracle SQL.]
 
   ],
   [
@@ -471,17 +471,15 @@ Analytics Consultant with 13 years in supply chain and manufacturing before movi
 
 #regular-entry(
   [
-    #strong[Cytiva], Warehouse Associate to Data Analyst
+    #strong[Cytiva], Analyst & Process Development Planner
 
     - Analyst & Process Development Planner (2021–2023): Built the analytics platform for the planning department (production, distribution, material) from scratch in Qlik. Delivered KPI dashboards for \~25 users and leadership, enabling data-driven decisions where none existed. Still in use.
 
     - BI Support Specialist (2017–2021): Built the One Warehouse suite covering fulfillment (inbound, outbound, in transit), inventory management (physical and cycle count), and a near-real-time operations dashboard. Also ran a machine learning POC for QA\/QC that identified test groupings, helping the team prioritize focus areas.
 
-    - Logistics Specialist (2015–2017): Handled exports, monitoring warehouse shipments and preparing export documentation.
+    - Logistics Specialist (2015–2017): Managed exports, including monitoring warehouse shipments and preparing export documentation.
 
-    - Deviation Handler (2015): Expert user handling warehouse process deviations. Part of the outsourcing project to set up the 3PL. Started building Qlik apps as side projects during this time.
-
-    - Warehouse Associate (2010–2015): Started on the warehouse floor picking, packing, and shipping orders. Built a jQuery web app to automate time reporting, used by 20 consultants. Got noticed and joined Project Harmony, onboarding warehouses to Oracle. First time touching SQL.
+    - Warehouse Associate & Deviation Handler (2010–2015): Started picking, packing, and shipping orders. Built a jQuery web app to automate time reporting, used by 20 consultants. Selected for Project Harmony, onboarding warehouses to Oracle, where I first learned SQL. Later handled warehouse process deviations, helped set up the 3PL during outsourcing, and started building Qlik apps as side projects.
 
   ],
   [
