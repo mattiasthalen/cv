@@ -13,7 +13,7 @@ cv:
 
   sections:
     summary:
-      - Experienced Analytics Consultant with a strong background in Business Intelligence, Data Engineering, and Analytics Engineering. Proficient in Microsoft Fabric, Qlik Sense, SQLMesh, and dlt, with a proven track record of delivering data-driven solutions that enhance business performance. Skilled in data modeling, ETL processes, and creating self-service analytics platforms. Committed to continuous improvement and leveraging data to drive strategic decision-making.
+      - Analytics Consultant with 13 years of hands-on experience in supply chain and manufacturing before moving into consulting. Started on the warehouse floor, learned SQL through an Oracle ERP rollout, and grew into building global analytics platforms used by 500+ users. Now specializing in platform migrations from Qlik to Microsoft Fabric. Active open source contributor to SQLMesh, dlt, and SQLGlot.
 
     open_source_contributions:
       - name: Qlik Parser
