@@ -127,7 +127,7 @@ Feb 2023
 
 **Technologies:** Microsoft Fabric, Qlik Sense, Azure Data Factory, dbt, SQLMesh, dlt
 
-# Projects
+# Featured Projects
 ## **Cytiva — One Warehouse**
 
 2017
@@ -138,6 +138,7 @@ Global Supply Chain had no BI for warehouse operations. Everything was built fro
 
 
 
+# Project History
 ## **Avarn Security — Qlik to Fabric Migration**
 
 2026
