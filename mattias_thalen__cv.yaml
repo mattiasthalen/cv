@@ -118,12 +118,6 @@ cv:
           - dlt
         summary: HR lacked visibility into workforce skills across the organization. Solo, I built a talent analytics solution integrating Visma HR, JDE, Maximo, and a homegrown talent system into Qlik. The solution maps skills, grades, and credential expirations across departments, enabling HR to spot skill gaps and plan hiring and training. Used by hundreds of employees.
 
-      - title: Avarn Security — Maintenance
-        date: 2025
-        authors:
-          - Qlik Sense
-          - QlikView
-        summary: Maintenace of existing solution, both front- and back-end.
 
       - title: Volvohandlarförening
         date: 2025
