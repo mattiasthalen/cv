@@ -77,7 +77,7 @@ cv:
       - label: Languages
         details: Python, SQL, Go
       - label: Technologies
-        details: Microsoft Fabric, Power BI, Qlik Sense, Azure Data Factory, dbt, SQLMesh, dlt
+        details: Microsoft Fabric, Qlik Sense, Azure Data Factory, dbt, SQLMesh, dlt
 
     projects:
       - title: Cytiva — One Warehouse
