@@ -16,8 +16,8 @@ wheels/
 # Git worktrees
 .worktrees/
 
-# Jekyll
-_site/
-.sass-cache/
-.jekyll-cache/
-.jekyll-metadata
+# Node.js
+node_modules/
+
+# Vite
+website/dist/
