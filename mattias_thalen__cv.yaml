@@ -87,7 +87,7 @@ cv:
       - label: Technologies
         details: Microsoft Fabric, Qlik Sense, Azure Data Factory, dbt, SQLMesh, dlt
 
-    career_defining_project:
+    featured_project:
       - title: Cytiva — One Warehouse
         date: 2017
         authors:
