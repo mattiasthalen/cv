@@ -114,7 +114,7 @@ Feb 2023
 
 **Languages:** Python, SQL, Go
 
-**Technologies:** Microsoft Fabric, Power BI, Qlik Sense, Azure Data Factory, dbt, SQLMesh, dlt
+**Technologies:** Microsoft Fabric, Qlik Sense, Azure Data Factory, dbt, SQLMesh, dlt
 
 # Projects
 ## **Cytiva — One Warehouse**
