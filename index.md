@@ -4,35 +4,9 @@ title: Mattias Thalén - Senior Data Engineer
 ---
 
 # Summary
-Analytics Consultant with 13 years of hands-on experience in supply chain and manufacturing before moving into consulting. Started on the warehouse floor, learned SQL through an Oracle ERP rollout, and grew into building global analytics platforms used by 500+ users. Now specializing in platform migrations from Qlik to Microsoft Fabric, leveraging LLMs as a daily development tool. Active open source contributor to SQLMesh, dlt, and SQLGlot.
+Analytics Consultant with 13 years of hands-on experience in supply chain and manufacturing before moving into consulting. Started on the warehouse floor, learned SQL through an Oracle ERP rollout, and grew into building global analytics platforms used by 500+ users. Now specializing in platform migrations from Qlik to Microsoft Fabric, using LLMs as a daily development tool. Active open source contributor to SQLMesh, dlt, and SQLGlot.
 
 # Open Source Contributions
-## **Qlik Parser**
-
-2025
-
-[github.com/mattiasthalen/qlik-parser](https://github.com/mattiasthalen/qlik-parser)
-
-CLI tool written in Go that extracts Qlik scripts from binary files.
-
-- Built a CLI tool to parse and extract scripts from Qlik binary formats.
-
-
-
-## **Bruin**
-
-2025
-
-[github.com/bruin-data/bruin](https://github.com/bruin-data/bruin)
-
-Open-source data pipeline tool.
-
-- Added support for Microsoft Fabric.
-
-- Added Azure Key Vault support.
-
-
-
 ## **SQLGlot**
 
 2025
@@ -66,6 +40,32 @@ Open-source data transformation and orchestration tool.
 Open-source data ingestion framework.
 
 - Added the Microsoft Fabric warehouse destination with Lakehouse staging, enabling SCD2.
+
+
+
+## **Bruin**
+
+2025
+
+[github.com/bruin-data/bruin](https://github.com/bruin-data/bruin)
+
+Open-source data pipeline tool.
+
+- Added support for Microsoft Fabric.
+
+- Added Azure Key Vault support.
+
+
+
+## **Qlik Parser**
+
+2025
+
+[github.com/mattiasthalen/qlik-parser](https://github.com/mattiasthalen/qlik-parser)
+
+CLI tool written in Go that extracts Qlik scripts from binary files.
+
+- Built a CLI tool to parse and extract scripts from Qlik binary formats.
 
 
 
@@ -165,7 +165,7 @@ An international coffee company facing QlikView end-of-life needed a full platfo
 
 **Tech Stack:** Microsoft Fabric, dlt, SQLMesh
 
-A retail company with a brand-new ERP (Omnium) had no analytics at all. In a team of three, I designed and built the data platform from the ground up, covering ingestion, historization, and a self-service consumption layer. Delivered a working foundation before the project was paused by the client to complete their ERP migration first.
+A retail company with a brand-new ERP (Omnium) had no analytics at all. In a team of three, I designed and built the data platform from the ground up, covering ingestion, historization, and a self-service consumption layer. Delivered a working foundation; the client paused the project to complete their ERP migration.
 
 
 

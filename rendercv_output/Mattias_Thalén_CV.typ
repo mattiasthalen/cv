@@ -106,45 +106,9 @@
 
 == Summary
 
-Analytics Consultant with 13 years of hands-on experience in supply chain and manufacturing before moving into consulting. Started on the warehouse floor, learned SQL through an Oracle ERP rollout, and grew into building global analytics platforms used by 500+ users. Now specializing in platform migrations from Qlik to Microsoft Fabric, leveraging LLMs as a daily development tool. Active open source contributor to SQLMesh, dlt, and SQLGlot.
+Analytics Consultant with 13 years of hands-on experience in supply chain and manufacturing before moving into consulting. Started on the warehouse floor, learned SQL through an Oracle ERP rollout, and grew into building global analytics platforms used by 500+ users. Now specializing in platform migrations from Qlik to Microsoft Fabric, using LLMs as a daily development tool. Active open source contributor to SQLMesh, dlt, and SQLGlot.
 
 == Open Source Contributions
-
-#regular-entry(
-  [
-    #strong[Qlik Parser]
-
-    #link("https://github.com/mattiasthalen/qlik-parser")[github.com\/mattiasthalen\/qlik-parser]
-
-    #summary[CLI tool written in Go that extracts Qlik scripts from binary files.]
-
-    - Built a CLI tool to parse and extract scripts from Qlik binary formats.
-
-  ],
-  [
-    2025
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[Bruin]
-
-    #link("https://github.com/bruin-data/bruin")[github.com\/bruin-data\/bruin]
-
-    #summary[Open-source data pipeline tool.]
-
-    - Added support for Microsoft Fabric.
-
-    - Added Azure Key Vault support.
-
-  ],
-  [
-    2025
-
-  ],
-)
 
 #regular-entry(
   [
@@ -189,6 +153,42 @@ Analytics Consultant with 13 years of hands-on experience in supply chain and ma
     #summary[Open-source data ingestion framework.]
 
     - Added the Microsoft Fabric warehouse destination with Lakehouse staging, enabling SCD2.
+
+  ],
+  [
+    2025
+
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[Bruin]
+
+    #link("https://github.com/bruin-data/bruin")[github.com\/bruin-data\/bruin]
+
+    #summary[Open-source data pipeline tool.]
+
+    - Added support for Microsoft Fabric.
+
+    - Added Azure Key Vault support.
+
+  ],
+  [
+    2025
+
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[Qlik Parser]
+
+    #link("https://github.com/mattiasthalen/qlik-parser")[github.com\/mattiasthalen\/qlik-parser]
+
+    #summary[CLI tool written in Go that extracts Qlik scripts from binary files.]
+
+    - Built a CLI tool to parse and extract scripts from Qlik binary formats.
 
   ],
   [
@@ -342,7 +342,7 @@ Analytics Consultant with 13 years of hands-on experience in supply chain and ma
 
     #strong[Tech Stack:] Microsoft Fabric, dlt, SQLMesh
 
-    #summary[A retail company with a brand-new ERP (Omnium) had no analytics at all. In a team of three, I designed and built the data platform from the ground up, covering ingestion, historization, and a self-service consumption layer. Delivered a working foundation before the project was paused by the client to complete their ERP migration first.]
+    #summary[A retail company with a brand-new ERP (Omnium) had no analytics at all. In a team of three, I designed and built the data platform from the ground up, covering ingestion, historization, and a self-service consumption layer. Delivered a working foundation; the client paused the project to complete their ERP migration.]
 
   ],
   [
