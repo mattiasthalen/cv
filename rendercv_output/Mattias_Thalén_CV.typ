@@ -154,7 +154,7 @@ Analytics Consultant with 13 years of hands-on experience in supply chain and ma
 
     #summary[Open-source SQL parser and transpiler.]
 
-    - Added the Microsoft Fabric SQL dialect.
+    - Added the Microsoft Fabric SQL dialect, a T-SQL variant needed for SQLMesh to target Fabric.
 
   ],
   [
@@ -171,7 +171,7 @@ Analytics Consultant with 13 years of hands-on experience in supply chain and ma
 
     #summary[Open-source data transformation and orchestration tool.]
 
-    - Added Microsoft Fabric as a supported platform.
+    - Built the Microsoft Fabric connector.
 
   ],
   [
@@ -188,7 +188,7 @@ Analytics Consultant with 13 years of hands-on experience in supply chain and ma
 
     #summary[Open-source data ingestion framework.]
 
-    - Added Microsoft Fabric as a destination.
+    - Added the Microsoft Fabric warehouse destination with Lakehouse staging, enabling SCD2.
 
   ],
   [
