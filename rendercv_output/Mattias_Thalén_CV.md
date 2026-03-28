@@ -253,7 +253,7 @@ A global project to onboard all Cytiva warehouses to Oracle. As the warehouse op
 
 
 
-## **Cytiva**, Warehouse to Analyst
+## **Cytiva**, Warehouse Associate to Data Analyst
 
 2010 – 2023
 

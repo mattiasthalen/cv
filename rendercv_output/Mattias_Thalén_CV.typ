@@ -471,7 +471,7 @@ Analytics Consultant with 13 years in supply chain and manufacturing before movi
 
 #regular-entry(
   [
-    #strong[Cytiva], Warehouse to Analyst
+    #strong[Cytiva], Warehouse Associate to Data Analyst
 
     - Analyst & Process Development Planner (2021–2023): Built the analytics platform for the planning department (production, distribution, material) from scratch in Qlik. Delivered KPI dashboards for \~25 users and leadership, enabling data-driven decisions where none existed. Still in use.
 
