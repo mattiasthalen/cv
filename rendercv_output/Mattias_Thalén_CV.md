@@ -237,6 +237,16 @@ Provided expert QlikView maintenance and development support, ensuring system st
 
 
 
+## **Cytiva — Project Harmony**
+
+2014
+
+**Tech Stack:** Oracle
+
+A global project to onboard all Cytiva warehouses to Oracle. As the warehouse operations representative for the template organization in Uppsala, I defined WMS rules, labels, and processes. Traveled to the US for the second warehouse go-live, after which the template was complete. This project gave me my first hands-on experience with Oracle SQL.
+
+
+
 # Experience
 ## **Enqore**, Analytics Consultant
 
@@ -270,10 +280,10 @@ Provided expert QlikView maintenance and development support, ensuring system st
 
 - BI Support Specialist (2017–2021): Built 'One Warehouse' and other global analytics solutions. See projects section.
 
-- Logistics Specialist (2015–2017): Warehouse operations representative for Project Harmony, onboarding all warehouses to Oracle. Defined WMS rules, labels, and processes. This is where I learned Oracle SQL and started building Qlik apps as side projects.
+- Logistics Specialist (2015–2017): Handled exports, monitoring warehouse shipments and preparing export documentation.
 
-- Deviation Handler (2015)
+- Deviation Handler (2015): Expert user handling warehouse process deviations. Part of the outsourcing project to set up the 3PL. Started building Qlik apps as side projects during this time.
 
-- Warehouse Associate (2010–2015): Started on the warehouse floor picking outbound orders. Grew into operations and process roles from here.
+- Warehouse Associate (2010–2015): Started on the warehouse floor picking, packing, and shipping orders. Built a jQuery web app to automate time reporting with complex business rules, used by all 20 consultants. Got noticed and joined Project Harmony, onboarding warehouses to Oracle, defining WMS rules and labels. Traveled to the US for the second go-live. First time touching Oracle SQL.
 
 
