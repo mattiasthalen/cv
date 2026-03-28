@@ -310,7 +310,7 @@ Analytics Consultant with 13 years of hands-on experience in supply chain and ma
   [
     #strong[Avarn Security — Qlik to Fabric Migration]
 
-    #strong[Tech Stack:] Microsoft Fabric, dlt, SQLMesh
+    #strong[Tech Stack:] Microsoft Fabric, dlt, dbt
 
     #summary[The client wanted to future-proof their data platform for ML\/AI capabilities. Serving as architect and Qlik\/Fabric SME alongside Atea NO, I am designing the migration of the ETL layer for their P&L solution (\~15 data sources) from Qlik into Microsoft Fabric. A pilot Power BI app is being built in parallel to validate the new platform for end users.]
 
@@ -327,7 +327,7 @@ Analytics Consultant with 13 years of hands-on experience in supply chain and ma
 
     #strong[Tech Stack:] Microsoft Fabric, dlt, SQLMesh, Power BI
 
-    #summary[A multi-country coffee company facing QlikView end-of-life needed a full platform migration. Leading the architecture and development in a team of six, I am migrating \~20 QlikView apps spanning finance, operations, and sales into Microsoft Fabric with Power BI. The new platform enables self-service analytics and ML\/AI capabilities that were not possible on QlikView.]
+    #summary[A Swedish coffee company facing QlikView end-of-life needed a full platform migration. Leading the architecture and development in a team of six, I am migrating \~20 QlikView apps spanning finance, operations, and sales into Microsoft Fabric with Power BI. The new platform enables self-service analytics and ML\/AI capabilities that were not possible on QlikView.]
 
   ],
   [

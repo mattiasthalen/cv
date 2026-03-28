@@ -146,7 +146,7 @@ Global Supply Chain had no BI for warehouse operations. Everything was built fro
 
 2026
 
-**Tech Stack:** Microsoft Fabric, dlt, SQLMesh
+**Tech Stack:** Microsoft Fabric, dlt, dbt
 
 The client wanted to future-proof their data platform for ML/AI capabilities. Serving as architect and Qlik/Fabric SME alongside Atea NO, I am designing the migration of the ETL layer for their P&L solution (~15 data sources) from Qlik into Microsoft Fabric. A pilot Power BI app is being built in parallel to validate the new platform for end users.
 
@@ -158,7 +158,7 @@ The client wanted to future-proof their data platform for ML/AI capabilities. Se
 
 **Tech Stack:** Microsoft Fabric, dlt, SQLMesh, Power BI
 
-A multi-country coffee company facing QlikView end-of-life needed a full platform migration. Leading the architecture and development in a team of six, I am migrating ~20 QlikView apps spanning finance, operations, and sales into Microsoft Fabric with Power BI. The new platform enables self-service analytics and ML/AI capabilities that were not possible on QlikView.
+A Swedish coffee company facing QlikView end-of-life needed a full platform migration. Leading the architecture and development in a team of six, I am migrating ~20 QlikView apps spanning finance, operations, and sales into Microsoft Fabric with Power BI. The new platform enables self-service analytics and ML/AI capabilities that were not possible on QlikView.
 
 
 
