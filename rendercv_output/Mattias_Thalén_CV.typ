@@ -357,7 +357,7 @@ Analytics Consultant with 13 years in supply chain and manufacturing before movi
 
     #strong[Tech Stack:] Qlik Sense, dlt
 
-    #summary[HR lacked visibility into workforce skills across the organization. Solo, I built a talent analytics solution integrating Visma HR, JDE, Maximo, and a homegrown talent system into Qlik. The solution maps skills, grades, and credential expirations across departments, enabling HR to spot skill gaps and plan hiring and training. Used by hundreds of employees.]
+    #summary[HR lacked visibility into workforce skills across the organization. Solo, I built a talent analytics solution integrating Visma HR, JDE, Maximo, and a homegrown talent system into Qlik. The solution maps skills, grades, and credential expirations across 10 departments, enabling HR to spot skill gaps and plan hiring and training. Adopted by \~200 employees.]
 
   ],
   [
@@ -402,7 +402,7 @@ Analytics Consultant with 13 years in supply chain and manufacturing before movi
 
     #strong[Tech Stack:] Qlik Sense
 
-    #summary[A LIMS upgrade removed the reporting capabilities the organization depended on. In a team of two, I built a new data model in Qlik that replicated and improved on the old reports, replacing static Excel exports with dynamic, explorable dashboards. About 100 users gained back their insights within a couple of months.]
+    #summary[A LIMS upgrade removed the reporting capabilities the organization depended on. In a team of two, I built a new data model in Qlik that replicated and improved on the old reports, replacing static Excel exports with dynamic, explorable dashboards. 80-100 users gained back their insights within 8 weeks.]
 
   ],
   [
@@ -417,7 +417,7 @@ Analytics Consultant with 13 years in supply chain and manufacturing before movi
 
     #strong[Tech Stack:] Qlik Sense
 
-    #summary[My first consulting engagement. Vinnova had a mature Qlik Sense environment that needed more horsepower. In a team of five, I built new reports, refactored data models, and compiled data for annual finance reporting delivered to regulatory authorities, where each year brings a new set of regulatory metrics. Also led the Qlik Sense version upgrade across the environment.]
+    #summary[My first consulting engagement. Vinnova had a mature Qlik Sense environment that needed more horsepower. In a team of five, I built new reports, refactored data models, and compiled data for annual finance reporting delivered to regulatory authorities, where each year brings a new set of regulatory metrics. Also led the Qlik Sense version upgrade across \~20 apps and 100 users.]
 
   ],
   [

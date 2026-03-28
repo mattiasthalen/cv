@@ -175,7 +175,7 @@ A retail company with a brand-new ERP (Omnium) had no analytics at all. In a tea
 
 **Tech Stack:** Qlik Sense, dlt
 
-HR lacked visibility into workforce skills across the organization. Solo, I built a talent analytics solution integrating Visma HR, JDE, Maximo, and a homegrown talent system into Qlik. The solution maps skills, grades, and credential expirations across departments, enabling HR to spot skill gaps and plan hiring and training. Used by hundreds of employees.
+HR lacked visibility into workforce skills across the organization. Solo, I built a talent analytics solution integrating Visma HR, JDE, Maximo, and a homegrown talent system into Qlik. The solution maps skills, grades, and credential expirations across 10 departments, enabling HR to spot skill gaps and plan hiring and training. Adopted by ~200 employees.
 
 
 
@@ -205,7 +205,7 @@ The agency needed to move complex budget allocation logic out of the niche tool 
 
 **Tech Stack:** Qlik Sense
 
-A LIMS upgrade removed the reporting capabilities the organization depended on. In a team of two, I built a new data model in Qlik that replicated and improved on the old reports, replacing static Excel exports with dynamic, explorable dashboards. About 100 users gained back their insights within a couple of months.
+A LIMS upgrade removed the reporting capabilities the organization depended on. In a team of two, I built a new data model in Qlik that replicated and improved on the old reports, replacing static Excel exports with dynamic, explorable dashboards. 80-100 users gained back their insights within 8 weeks.
 
 
 
@@ -215,7 +215,7 @@ A LIMS upgrade removed the reporting capabilities the organization depended on. 
 
 **Tech Stack:** Qlik Sense
 
-My first consulting engagement. Vinnova had a mature Qlik Sense environment that needed more horsepower. In a team of five, I built new reports, refactored data models, and compiled data for annual finance reporting delivered to regulatory authorities, where each year brings a new set of regulatory metrics. Also led the Qlik Sense version upgrade across the environment.
+My first consulting engagement. Vinnova had a mature Qlik Sense environment that needed more horsepower. In a team of five, I built new reports, refactored data models, and compiled data for annual finance reporting delivered to regulatory authorities, where each year brings a new set of regulatory metrics. Also led the Qlik Sense version upgrade across ~20 apps and 100 users.
 
 
 
