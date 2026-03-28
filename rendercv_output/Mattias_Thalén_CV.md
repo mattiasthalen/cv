@@ -117,6 +117,16 @@ Feb 2023
 **Technologies:** Microsoft Fabric, Qlik Sense, dbt, SQLMesh, dlt
 
 # Projects
+## **Cytiva — One Warehouse**
+
+2017
+
+**Tech Stack:** Qlik Sense
+
+Global Supply Chain had no BI for warehouse operations. Everything was built from a sales perspective. Solo, I built a global Qlik app covering inbound, outbound, and inventory management for warehouses in Sweden, the US, Japan, Hong Kong, and Singapore. Data was sourced from Oracle WMS. Replaced a daily emailed spreadsheet with live analytics displayed on warehouse floor screens. Became the most used app in Global Supply Chain and drove weekly global meetings where each site reviewed their numbers. 500+ users, still in use.
+
+
+
 ## **Avarn Security — Qlik to Fabric Migration**
 
 2026
@@ -227,16 +237,6 @@ Provided expert QlikView maintenance and development support, ensuring system st
 
 
 
-## **Cytiva — One Warehouse**
-
-2017
-
-**Tech Stack:** Qlik Sense
-
-Global Supply Chain had no BI for warehouse operations. Everything was built from a sales perspective. Solo, I built a global Qlik app covering inbound, outbound, and inventory management for warehouses in Sweden, the US, Japan, Hong Kong, and Singapore. Data was sourced from Oracle WMS. Replaced a daily emailed spreadsheet with live analytics displayed on warehouse floor screens. Became the most used app in Global Supply Chain and drove weekly global meetings where each site reviewed their numbers. 500+ users, still in use.
-
-
-
 # Experience
 ## **Enqore**, Analytics Consultant
 
@@ -268,12 +268,12 @@ Global Supply Chain had no BI for warehouse operations. Everything was built fro
 
 - Analyst & Process Development Planner (2021–2023): Built the analytics platform for the planning department (production, distribution, material) from scratch in Qlik. Delivered KPI dashboards for ~25 users and leadership, enabling data-driven decisions where there previously was none. Still in use.
 
-- BI Support Specialist (2017–2021)
+- BI Support Specialist (2017–2021): Built 'One Warehouse' and other global analytics solutions. See projects section.
 
-- Logistics Specialist (2015–2017)
+- Logistics Specialist (2015–2017): Warehouse operations representative for Project Harmony, onboarding all warehouses to Oracle. Defined WMS rules, labels, and processes. This is where I learned Oracle SQL and started building Qlik apps as side projects.
 
 - Deviation Handler (2015)
 
-- Warehouse Associate (2010–2015)
+- Warehouse Associate (2010–2015): Started on the warehouse floor picking outbound orders. Grew into operations and process roles from here.
 
 
