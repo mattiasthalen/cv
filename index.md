@@ -4,7 +4,7 @@ title: Mattias Thalén - Senior Data Engineer
 ---
 
 # Summary
-Analytics Consultant with 13 years of hands-on experience in supply chain and manufacturing before moving into consulting. Started on the warehouse floor, learned SQL through an Oracle ERP rollout, and grew into building global analytics platforms used by 500+ users. Now specializing in platform migrations from Qlik to Microsoft Fabric. Active open source contributor to SQLMesh, dlt, and SQLGlot.
+Analytics Consultant with 13 years of hands-on experience in supply chain and manufacturing before moving into consulting. Started on the warehouse floor, learned SQL through an Oracle ERP rollout, and grew into building global analytics platforms used by 500+ users. Now specializing in platform migrations from Qlik to Microsoft Fabric, leveraging LLMs as a daily development tool. Active open source contributor to SQLMesh, dlt, and SQLGlot.
 
 # Open Source Contributions
 ## **Qlik Parser**
