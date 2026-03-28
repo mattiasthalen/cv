@@ -347,21 +347,6 @@ Analytics Consultant with 13 years of hands-on experience in supply chain and ma
 
 #regular-entry(
   [
-    #strong[Avarn Security — Maintenance]
-
-    #strong[Tech Stack:] Qlik Sense, QlikView
-
-    #summary[Maintenace of existing solution, both front- and back-end.]
-
-  ],
-  [
-    2025
-
-  ],
-)
-
-#regular-entry(
-  [
     #strong[Volvohandlarförening]
 
     #strong[Tech Stack:] Azure SQL, Azure Data Factory, dlt

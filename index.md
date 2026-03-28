@@ -164,16 +164,6 @@ HR lacked visibility into workforce skills across the organization. Solo, I buil
 
 
 
-## **Avarn Security — Maintenance**
-
-2025
-
-**Tech Stack:** Qlik Sense, QlikView
-
-Maintenace of existing solution, both front- and back-end.
-
-
-
 ## **Volvohandlarförening**
 
 2025
