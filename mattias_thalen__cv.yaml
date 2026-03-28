@@ -157,6 +157,12 @@ cv:
           - QlikView
         summary: Provided expert QlikView maintenance and development support, ensuring system stability and performance.
 
+      - title: Cytiva — One Warehouse
+        date: 2017
+        authors:
+          - QlikView
+        summary: Global Supply Chain had no BI for warehouse operations. Everything was built from a sales perspective. Solo, I built a global Qlik app covering inbound, outbound, and inventory management for warehouses in Sweden, the US, Japan, Hong Kong, and Singapore. Replaced a daily emailed spreadsheet with live analytics displayed on warehouse floor screens. Became the most used app in Global Supply Chain and drove weekly global meetings where each site reviewed their numbers. 500+ users, still in use.
+
     experience:
       - company: Enqore
         position: Analytics Consultant
@@ -174,7 +180,7 @@ cv:
         end_date: 2023
         highlights:
           - "Analyst & Process Development Planner (2021–2023): Built the analytics platform for the planning department (production, distribution, material) from scratch in Qlik. Delivered KPI dashboards for ~25 users and leadership, enabling data-driven decisions where there previously was none. Still in use."
-          - "BI Support Specialist (2017–2021): Built 'One Warehouse', a global Qlik app for inbound, outbound, and inventory management across warehouses in Sweden, the US, Japan, Hong Kong, and Singapore. Replaced a daily emailed spreadsheet with live analytics displayed on warehouse floor screens. Became the most used app in Global Supply Chain and drove weekly global meetings where each site reviewed their numbers. 500+ users, still in use."
+          - "BI Support Specialist (2017–2021)"
           - "Logistics Specialist (2015–2017)"
           - "Deviation Handler (2015)"
           - "Warehouse Associate (2010–2015)"
