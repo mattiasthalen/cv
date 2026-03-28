@@ -13,7 +13,7 @@ cv:
 
   sections:
     summary:
-      - Analytics Consultant with 13 years in supply chain and manufacturing before moving into consulting. Started on the warehouse floor, learned SQL through an Oracle ERP rollout, and grew into building global analytics platforms used by 500+ users. Now consulting, building data platforms and migrating legacy BI environments to modern stacks, using LLMs as a daily development tool. Active open source contributor to SQLMesh, dlt, and SQLGlot.
+      - Analytics Consultant who builds data platforms and migrates legacy BI environments to modern stacks, using LLMs as a daily development tool. Active open source contributor to SQLMesh, SQLGlot, and dlt. Background: 13 years in supply chain and manufacturing, from the warehouse floor through an Oracle ERP rollout to building global analytics platforms used by 500+ users.
 
     open_source_contributions:
       - name: SQLGlot
