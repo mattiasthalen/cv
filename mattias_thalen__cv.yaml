@@ -13,24 +13,9 @@ cv:
 
   sections:
     summary:
-      - Analytics Consultant with 13 years of hands-on experience in supply chain and manufacturing before moving into consulting. Started on the warehouse floor, learned SQL through an Oracle ERP rollout, and grew into building global analytics platforms used by 500+ users. Now specializing in platform migrations from Qlik to Microsoft Fabric, leveraging LLMs as a daily development tool. Active open source contributor to SQLMesh, dlt, and SQLGlot.
+      - Analytics Consultant with 13 years of hands-on experience in supply chain and manufacturing before moving into consulting. Started on the warehouse floor, learned SQL through an Oracle ERP rollout, and grew into building global analytics platforms used by 500+ users. Now specializing in platform migrations from Qlik to Microsoft Fabric, using LLMs as a daily development tool. Active open source contributor to SQLMesh, dlt, and SQLGlot.
 
     open_source_contributions:
-      - name: Qlik Parser
-        summary: CLI tool written in Go that extracts Qlik scripts from binary files.
-        date: 2025
-        highlights:
-          - Built a CLI tool to parse and extract scripts from Qlik binary formats.
-        url: https://github.com/mattiasthalen/qlik-parser
-
-      - name: Bruin
-        summary: Open-source data pipeline tool.
-        date: 2025
-        highlights:
-          - Added support for Microsoft Fabric.
-          - Added Azure Key Vault support.
-        url: https://github.com/bruin-data/bruin
-
       - name: SQLGlot
         summary: Open-source SQL parser and transpiler.
         date: 2025
@@ -51,6 +36,21 @@ cv:
         highlights:
           - Added the Microsoft Fabric warehouse destination with Lakehouse staging, enabling SCD2.
         url: https://github.com/dlt-hub/dlt
+
+      - name: Bruin
+        summary: Open-source data pipeline tool.
+        date: 2025
+        highlights:
+          - Added support for Microsoft Fabric.
+          - Added Azure Key Vault support.
+        url: https://github.com/bruin-data/bruin
+
+      - name: Qlik Parser
+        summary: CLI tool written in Go that extracts Qlik scripts from binary files.
+        date: 2025
+        highlights:
+          - Built a CLI tool to parse and extract scripts from Qlik binary formats.
+        url: https://github.com/mattiasthalen/qlik-parser
 
     certifications:
       - name: Microsoft Certified - Fabric Data Engineer Associate
@@ -118,7 +118,7 @@ cv:
           - Microsoft Fabric
           - dlt
           - SQLMesh
-        summary: A retail company with a brand-new ERP (Omnium) had no analytics at all. In a team of three, I designed and built the data platform from the ground up, covering ingestion, historization, and a self-service consumption layer. Delivered a working foundation before the project was paused by the client to complete their ERP migration first.
+        summary: A retail company with a brand-new ERP (Omnium) had no analytics at all. In a team of three, I designed and built the data platform from the ground up, covering ingestion, historization, and a self-service consumption layer. Delivered a working foundation; the client paused the project to complete their ERP migration.
 
       - title: Arctic Paper
         date: 2025
