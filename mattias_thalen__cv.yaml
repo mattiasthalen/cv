@@ -160,8 +160,8 @@ cv:
       - title: Cytiva — One Warehouse
         date: 2017
         authors:
-          - QlikView
-        summary: Global Supply Chain had no BI for warehouse operations. Everything was built from a sales perspective. Solo, I built a global Qlik app covering inbound, outbound, and inventory management for warehouses in Sweden, the US, Japan, Hong Kong, and Singapore. Replaced a daily emailed spreadsheet with live analytics displayed on warehouse floor screens. Became the most used app in Global Supply Chain and drove weekly global meetings where each site reviewed their numbers. 500+ users, still in use.
+          - Qlik Sense
+        summary: Global Supply Chain had no BI for warehouse operations. Everything was built from a sales perspective. Solo, I built a global Qlik app covering inbound, outbound, and inventory management for warehouses in Sweden, the US, Japan, Hong Kong, and Singapore. Data was sourced from Oracle WMS. Replaced a daily emailed spreadsheet with live analytics displayed on warehouse floor screens. Became the most used app in Global Supply Chain and drove weekly global meetings where each site reviewed their numbers. 500+ users, still in use.
 
     experience:
       - company: Enqore
