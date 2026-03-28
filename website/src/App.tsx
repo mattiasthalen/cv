@@ -10,7 +10,7 @@ import { ExperienceSection } from './components/ExperienceSection'
 import { ProjectsSection } from './components/ProjectsSection'
 import { Footer } from './components/Footer'
 
-const cvData = (cvRaw as CVRoot).cv
+const cvData = (cvRaw as unknown as CVRoot).cv
 
 const sections = [
   { id: 'summary', label: 'Summary' },

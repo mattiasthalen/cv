@@ -8,7 +8,7 @@ import yaml from 'yaml'
 function yamlPlugin() {
   return {
     name: 'yaml-loader',
-    transform(code: string, id: string) {
+    transform(_code: string, id: string) {
       if (id.endsWith('.yaml') || id.endsWith('.yml')) {
         const content = readFileSync(id, 'utf-8')
         const parsed = yaml.parse(content)
