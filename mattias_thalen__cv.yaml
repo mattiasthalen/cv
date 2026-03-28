@@ -35,21 +35,21 @@ cv:
         summary: Open-source SQL parser and transpiler.
         date: 2025
         highlights:
-          - Added the Microsoft Fabric SQL dialect.
+          - Added the Microsoft Fabric SQL dialect, a T-SQL variant needed for SQLMesh to target Fabric.
         url: https://github.com/tobymao/sqlglot
 
       - name: SQLMesh
         summary: Open-source data transformation and orchestration tool.
         date: 2025
         highlights:
-          - Added Microsoft Fabric as a supported platform.
+          - Built the Microsoft Fabric connector.
         url: https://github.com/TobikoData/sqlmesh
 
       - name: dltHub
         summary: Open-source data ingestion framework.
         date: 2025
         highlights:
-          - Added Microsoft Fabric as a destination.
+          - Added the Microsoft Fabric warehouse destination with Lakehouse staging, enabling SCD2.
         url: https://github.com/dlt-hub/dlt
 
     certifications:
