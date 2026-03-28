@@ -110,7 +110,7 @@ cv:
           - dlt
           - SQLMesh
           - Power BI
-        summary: A Swedish coffee company facing QlikView end-of-life needed a full platform migration. Leading the architecture and development in a team of six, I am migrating ~20 QlikView apps spanning finance, operations, and sales into Microsoft Fabric with Power BI. The new platform enables self-service analytics and ML/AI capabilities that were not possible on QlikView.
+        summary: An international coffee company facing QlikView end-of-life needed a full platform migration. Leading the architecture and development in a team of six, I am migrating ~20 QlikView apps spanning finance, operations, and sales into Microsoft Fabric with Power BI. The new platform enables self-service analytics and ML/AI capabilities that were not possible on QlikView.
 
       - title: Jaktia
         date: 2025
