@@ -248,12 +248,12 @@ A global project to onboard all Cytiva warehouses to Oracle. As the warehouse op
 
 - Analyst & Process Development Planner (2021–2023): Built the analytics platform for the planning department (production, distribution, material) from scratch in Qlik. Delivered KPI dashboards for ~25 users and leadership, enabling data-driven decisions where there previously was none. Still in use.
 
-- BI Support Specialist (2017–2021): Built 'One Warehouse' and other global analytics solutions. See projects section.
+- BI Support Specialist (2017–2021): Built global analytics solutions for warehouse operations, including the 'One Warehouse' app. 500+ users across five countries.
 
 - Logistics Specialist (2015–2017): Handled exports, monitoring warehouse shipments and preparing export documentation.
 
 - Deviation Handler (2015): Expert user handling warehouse process deviations. Part of the outsourcing project to set up the 3PL. Started building Qlik apps as side projects during this time.
 
-- Warehouse Associate (2010–2015): Started on the warehouse floor picking, packing, and shipping orders. Built a jQuery web app to automate time reporting with complex business rules, used by all 20 consultants. Got noticed and joined Project Harmony, onboarding warehouses to Oracle, defining WMS rules and labels. Traveled to the US for the second go-live. First time touching Oracle SQL.
+- Warehouse Associate (2010–2015): Started on the warehouse floor picking, packing, and shipping orders. Built a jQuery web app to automate time reporting, used by 20 consultants. Got noticed and joined Project Harmony, onboarding warehouses to Oracle. First time touching SQL.
 
 
