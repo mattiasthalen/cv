@@ -75,9 +75,9 @@ cv:
       - label: Methodologies
         details: Data Modeling, Data Warehousing, ETL/ELT, Unified Star Schema, Medallion Architecture, Hook Methodology
       - label: Languages
-        details: Python, SQL
+        details: Python, SQL, Go
       - label: Technologies
-        details: Microsoft Fabric, Qlik Sense, dbt, SQLMesh, dlt
+        details: Microsoft Fabric, Power BI, Qlik Sense, Azure Data Factory, dbt, SQLMesh, dlt
 
     projects:
       - title: Cytiva — One Warehouse
