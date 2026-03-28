@@ -19,6 +19,20 @@ CLI tool written in Go that extracts Qlik scripts from binary files.
 
 
 
+## **Bruin**
+
+2025
+
+[github.com/bruin-data/bruin](https://github.com/bruin-data/bruin)
+
+Open-source data pipeline tool.
+
+- Added support for Microsoft Fabric.
+
+- Added Azure Key Vault support.
+
+
+
 ## **SQLGlot**
 
 2025
@@ -27,7 +41,7 @@ CLI tool written in Go that extracts Qlik scripts from binary files.
 
 Open-source SQL parser and transpiler.
 
-- Added support for Microsoft Fabric SQL dialect.
+- Added the Microsoft Fabric SQL dialect.
 
 
 
@@ -39,7 +53,7 @@ Open-source SQL parser and transpiler.
 
 Open-source data transformation and orchestration tool.
 
-- Added support for Microsoft Fabric.
+- Added Microsoft Fabric as a supported platform.
 
 
 
@@ -51,7 +65,7 @@ Open-source data transformation and orchestration tool.
 
 Open-source data ingestion framework.
 
-- Added support for Microsoft Fabric.
+- Added Microsoft Fabric as a destination.
 
 
 

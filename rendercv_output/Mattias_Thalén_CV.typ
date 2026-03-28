@@ -129,13 +129,32 @@ Analytics Consultant with 13 years of hands-on experience in supply chain and ma
 
 #regular-entry(
   [
+    #strong[Bruin]
+
+    #link("https://github.com/bruin-data/bruin")[github.com\/bruin-data\/bruin]
+
+    #summary[Open-source data pipeline tool.]
+
+    - Added support for Microsoft Fabric.
+
+    - Added Azure Key Vault support.
+
+  ],
+  [
+    2025
+
+  ],
+)
+
+#regular-entry(
+  [
     #strong[SQLGlot]
 
     #link("https://github.com/tobymao/sqlglot")[github.com\/tobymao\/sqlglot]
 
     #summary[Open-source SQL parser and transpiler.]
 
-    - Added support for Microsoft Fabric SQL dialect.
+    - Added the Microsoft Fabric SQL dialect.
 
   ],
   [
@@ -152,7 +171,7 @@ Analytics Consultant with 13 years of hands-on experience in supply chain and ma
 
     #summary[Open-source data transformation and orchestration tool.]
 
-    - Added support for Microsoft Fabric.
+    - Added Microsoft Fabric as a supported platform.
 
   ],
   [
@@ -169,7 +188,7 @@ Analytics Consultant with 13 years of hands-on experience in supply chain and ma
 
     #summary[Open-source data ingestion framework.]
 
-    - Added support for Microsoft Fabric.
+    - Added Microsoft Fabric as a destination.
 
   ],
   [
