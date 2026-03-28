@@ -30,8 +30,8 @@ cv:
           - Built the Microsoft Fabric connector. Shipped in v0.210.0, with follow-up improvements in v0.228.0.
         url: https://github.com/TobikoData/sqlmesh
 
-      - name: dltHub
-        summary: Open-source data ingestion framework.
+      - name: dlt
+        summary: Open-source data ingestion framework by dltHub.
         date: 2025
         highlights:
           - Added the Microsoft Fabric warehouse destination with Lakehouse staging, enabling SCD2. Shipped in v1.21.0.
@@ -135,7 +135,7 @@ cv:
           - dlt
         summary: An existing Azure-based data warehouse suffered from poorly built Data Factory pipelines and slow stored procedures. I introduced dlt to replace brittle unnesting logic and refactored key stored procedures, cutting execution time from ~10 hours to ~10 minutes. The platform serves ~140 users across 7 dealerships with sales, invoicing, and HR analytics.
 
-      - title: Swedish Government Agency
+      - title: Statens Servicecenter
         date: 2024
         authors:
           - Qlik Sense
@@ -151,7 +151,7 @@ cv:
         date: 2023
         authors:
           - Qlik Sense
-        summary: My first consulting engagement. Vinnova had a mature Qlik Sense environment that needed more horsepower. In a team of five, I built new reports, refactored data models, and compiled data for annual finance reporting delivered to regulatory authorities, where each year brings a new set of regulatory metrics. Also led the Qlik Sense version upgrade across ~20 apps and 100 users.
+        summary: Vinnova had a mature Qlik Sense environment that needed more horsepower. In a team of five, I built new reports, refactored data models, and compiled data for annual finance reporting delivered to regulatory authorities, where each year brings a new set of regulatory metrics. Also led the Qlik Sense version upgrade across ~20 apps and 100 users.
 
       - title: Cytiva — Project Harmony
         date: 2014
@@ -171,7 +171,7 @@ cv:
         end_date: 2025
 
       - company: Cytiva
-        position: Warehouse Associate to Data Analyst
+        position: Analyst & Process Development Planner
         start_date: 2010
         end_date: 2023
         highlights:
