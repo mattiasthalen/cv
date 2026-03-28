@@ -158,7 +158,7 @@ The client wanted to future-proof their data platform for ML/AI capabilities. Se
 
 **Tech Stack:** Microsoft Fabric, dlt, SQLMesh, Power BI
 
-A Swedish coffee company facing QlikView end-of-life needed a full platform migration. Leading the architecture and development in a team of six, I am migrating ~20 QlikView apps spanning finance, operations, and sales into Microsoft Fabric with Power BI. The new platform enables self-service analytics and ML/AI capabilities that were not possible on QlikView.
+An international coffee company facing QlikView end-of-life needed a full platform migration. Leading the architecture and development in a team of six, I am migrating ~20 QlikView apps spanning finance, operations, and sales into Microsoft Fabric with Power BI. The new platform enables self-service analytics and ML/AI capabilities that were not possible on QlikView.
 
 
 
