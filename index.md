@@ -4,7 +4,7 @@ title: Mattias Thalén - Senior Data Engineer
 ---
 
 # Summary
-Analytics Consultant with 13 years of hands-on experience in supply chain and manufacturing before moving into consulting. Started on the warehouse floor, learned SQL through an Oracle ERP rollout, and grew into building global analytics platforms used by 500+ users. Now specializing in platform migrations from Qlik to Microsoft Fabric, using LLMs as a daily development tool. Active open source contributor to SQLMesh, dlt, and SQLGlot.
+Analytics Consultant with 13 years in supply chain and manufacturing before moving into consulting. Started on the warehouse floor, learned SQL through an Oracle ERP rollout, and grew into building global analytics platforms used by 500+ users. Now specializing in platform migrations from Qlik to Microsoft Fabric, using LLMs as a daily development tool. Active open source contributor to SQLMesh, dlt, and SQLGlot.
 
 # Open Source Contributions
 ## **SQLGlot**
@@ -65,7 +65,7 @@ Open-source data pipeline tool.
 
 CLI tool written in Go that extracts Qlik scripts from binary files.
 
-- Built a CLI tool to parse and extract scripts from Qlik binary formats.
+- Enables migration teams to extract and review Qlik logic without access to Qlik tooling. Built entirely with Claude Code.
 
 
 
@@ -250,7 +250,7 @@ A global project to onboard all Cytiva warehouses to Oracle. As the warehouse op
 
 
 
-## **Cytiva**, Various Roles
+## **Cytiva**, Warehouse to Analyst
 
 2010 – 2023
 
@@ -258,7 +258,7 @@ A global project to onboard all Cytiva warehouses to Oracle. As the warehouse op
 
 13 years
 
-- Analyst & Process Development Planner (2021–2023): Built the analytics platform for the planning department (production, distribution, material) from scratch in Qlik. Delivered KPI dashboards for ~25 users and leadership, enabling data-driven decisions where there previously was none. Still in use.
+- Analyst & Process Development Planner (2021–2023): Built the analytics platform for the planning department (production, distribution, material) from scratch in Qlik. Delivered KPI dashboards for ~25 users and leadership, enabling data-driven decisions where none existed. Still in use.
 
 - BI Support Specialist (2017–2021): Developed global analytics solutions for supply chain operations.
 
