@@ -215,7 +215,7 @@ A LIMS upgrade removed the reporting capabilities the organization depended on. 
 
 **Tech Stack:** Qlik Sense
 
-My first consulting engagement. Vinnova had a mature Qlik Sense environment that needed more horsepower. In a team of five, I built new reports, refactored data models, and compiled data for annual finance reporting delivered to regulatory authorities, where each year brings a new set of measures. Also led the Qlik Sense version upgrade across the environment.
+My first consulting engagement. Vinnova had a mature Qlik Sense environment that needed more horsepower. In a team of five, I built new reports, refactored data models, and compiled data for annual finance reporting delivered to regulatory authorities, where each year brings a new set of regulatory metrics. Also led the Qlik Sense version upgrade across the environment.
 
 
 
