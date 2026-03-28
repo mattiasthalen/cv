@@ -112,9 +112,9 @@ Feb 2023
 
 **Methodologies:** Data Modeling, Data Warehousing, ETL/ELT, Unified Star Schema, Medallion Architecture, Hook Methodology
 
-**Languages:** Python, SQL
+**Languages:** Python, SQL, Go
 
-**Technologies:** Microsoft Fabric, Qlik Sense, dbt, SQLMesh, dlt
+**Technologies:** Microsoft Fabric, Power BI, Qlik Sense, Azure Data Factory, dbt, SQLMesh, dlt
 
 # Projects
 ## **Cytiva — One Warehouse**

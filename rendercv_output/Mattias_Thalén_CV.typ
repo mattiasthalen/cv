@@ -264,9 +264,9 @@ Analytics Consultant with 13 years of hands-on experience in supply chain and ma
 
 #strong[Methodologies:] Data Modeling, Data Warehousing, ETL\/ELT, Unified Star Schema, Medallion Architecture, Hook Methodology
 
-#strong[Languages:] Python, SQL
+#strong[Languages:] Python, SQL, Go
 
-#strong[Technologies:] Microsoft Fabric, Qlik Sense, dbt, SQLMesh, dlt
+#strong[Technologies:] Microsoft Fabric, Power BI, Qlik Sense, Azure Data Factory, dbt, SQLMesh, dlt
 
 == Projects
 
