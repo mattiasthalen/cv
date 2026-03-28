@@ -20,29 +20,29 @@ cv:
         summary: Open-source SQL parser and transpiler.
         date: 2025
         highlights:
-          - Added the Microsoft Fabric SQL dialect, a T-SQL variant needed for SQLMesh to target Fabric.
+          - Added the Microsoft Fabric SQL dialect across 9 merged PRs. Shipped in v26.30.0. Required upstream dependency for SQLMesh Fabric support.
         url: https://github.com/tobymao/sqlglot
 
       - name: SQLMesh
         summary: Open-source data transformation and orchestration tool.
         date: 2025
         highlights:
-          - Built the Microsoft Fabric connector.
+          - Built the Microsoft Fabric connector. Shipped in v0.210.0, with follow-up improvements in v0.228.0.
         url: https://github.com/TobikoData/sqlmesh
 
       - name: dltHub
         summary: Open-source data ingestion framework.
         date: 2025
         highlights:
-          - Added the Microsoft Fabric warehouse destination with Lakehouse staging, enabling SCD2.
+          - Added the Microsoft Fabric warehouse destination with Lakehouse staging, enabling SCD2. Shipped in v1.21.0.
         url: https://github.com/dlt-hub/dlt
 
       - name: Bruin
         summary: Open-source data pipeline tool.
-        date: 2025
+        date: 2026
         highlights:
-          - Added support for Microsoft Fabric.
-          - Added Azure Key Vault support.
+          - Added Microsoft Fabric Warehouse support. Shipped in v0.11.442.
+          - Added Azure Key Vault as a secrets backend. Shipped in v0.11.443.
         url: https://github.com/bruin-data/bruin
 
       - name: Qlik Parser
