@@ -151,11 +151,6 @@ cv:
           - Qlik Sense
         summary: My first consulting engagement. Vinnova had a mature Qlik Sense environment that needed more horsepower. In a team of five, I built new reports, refactored data models, and compiled data for annual finance reporting delivered to regulatory authorities, where each year brings a new set of measures. Also led the Qlik Sense version upgrade across the environment.
 
-      - title: Internationella Engelska Skolan
-        date: 2023
-        authors:
-          - QlikView
-        summary: Provided expert QlikView maintenance and development support, ensuring system stability and performance.
 
       - title: Cytiva — Project Harmony
         date: 2014
