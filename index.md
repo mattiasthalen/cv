@@ -4,7 +4,7 @@ title: Mattias Thalén - Senior Data Engineer
 ---
 
 # Summary
-Analytics Consultant with 13 years in supply chain and manufacturing before moving into consulting. Started on the warehouse floor, learned SQL through an Oracle ERP rollout, and grew into building global analytics platforms used by 500+ users. Now specializing in platform migrations from Qlik to Microsoft Fabric, using LLMs as a daily development tool. Active open source contributor to SQLMesh, dlt, and SQLGlot.
+Analytics Consultant with 13 years in supply chain and manufacturing before moving into consulting. Started on the warehouse floor, learned SQL through an Oracle ERP rollout, and grew into building global analytics platforms used by 500+ users. Now consulting, building data platforms and migrating legacy BI environments to modern stacks, using LLMs as a daily development tool. Active open source contributor to SQLMesh, dlt, and SQLGlot.
 
 # Open Source Contributions
 ## **SQLGlot**
@@ -123,7 +123,7 @@ Feb 2023
 
 **Methodologies:** Data Modeling, Data Warehousing, ETL/ELT, Unified Star Schema, Medallion Architecture, Hook Methodology
 
-**Languages:** Python, SQL, Go
+**Languages:** Python, SQL
 
 **Technologies:** Microsoft Fabric, Qlik Sense, Azure Data Factory, dbt, SQLMesh, dlt
 
@@ -260,7 +260,7 @@ A global project to onboard all Cytiva warehouses to Oracle. As the warehouse op
 
 - Analyst & Process Development Planner (2021–2023): Built the analytics platform for the planning department (production, distribution, material) from scratch in Qlik. Delivered KPI dashboards for ~25 users and leadership, enabling data-driven decisions where none existed. Still in use.
 
-- BI Support Specialist (2017–2021): Developed global analytics solutions for supply chain operations.
+- BI Support Specialist (2017–2021): Built the One Warehouse suite covering fulfillment (inbound, outbound, in transit), inventory management (physical and cycle count), and a near-real-time operations dashboard. Also ran a machine learning POC for QA/QC that identified test groupings, helping the team prioritize focus areas.
 
 - Logistics Specialist (2015–2017): Handled exports, monitoring warehouse shipments and preparing export documentation.
 
