@@ -207,11 +207,11 @@ design:
     alignment: justified
     date_and_location_column_alignment: right
     font_family:
-      body: Source Sans 3
-      name: Source Sans 3
-      headline: Source Sans 3
-      connections: Source Sans 3
-      section_titles: Source Sans 3
+      body: Merriweather
+      name: Merriweather
+      headline: Merriweather
+      connections: Merriweather
+      section_titles: Merriweather
     font_size:
       body: 10pt
       name: 30pt
