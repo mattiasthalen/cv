@@ -193,14 +193,14 @@ design:
     show_top_note: true
 
   colors:
-    body: rgb(0, 0, 0)
-    name: rgb(0, 79, 144)
-    headline: rgb(0, 79, 144)
-    connections: rgb(0, 79, 144)
-    section_titles: rgb(0, 79, 144)
-    links: rgb(0, 79, 144)
-    footer: rgb(128, 128, 128)
-    top_note: rgb(128, 128, 128)
+    body: rgb(30, 30, 30)
+    name: rgb(74, 158, 255)
+    headline: rgb(74, 158, 255)
+    connections: rgb(74, 158, 255)
+    section_titles: rgb(74, 158, 255)
+    links: rgb(74, 158, 255)
+    footer: rgb(136, 136, 136)
+    top_note: rgb(136, 136, 136)
 
   typography:
     line_spacing: 0.6em
