@@ -398,7 +398,7 @@ Analytics Consultant building data platforms and migrating legacy BI environment
 
 #regular-entry(
   [
-    #strong[Life Science Corporation]
+    #strong[Octapharma]
 
     #strong[Tech Stack:] Qlik Sense
 
