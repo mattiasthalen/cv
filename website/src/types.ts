@@ -11,6 +11,14 @@ export interface OpenSourceEntry {
   url: string
 }
 
+export interface PersonalProjectEntry {
+  name: string
+  summary: string
+  date: string
+  highlights?: string[]
+  url: string
+}
+
 export interface Certification {
   name: string
   date: string
@@ -20,13 +28,6 @@ export interface Certification {
 export interface Skill {
   label: string
   details: string
-}
-
-export interface ProjectEntry {
-  title: string
-  date: string
-  authors: string[]
-  summary: string
 }
 
 export interface ExperienceEntry {
@@ -39,12 +40,12 @@ export interface ExperienceEntry {
 
 export interface CVSections {
   summary: string[]
-  open_source_contributions: OpenSourceEntry[]
-  certifications: Certification[]
-  skills: Skill[]
-  featured_project: ProjectEntry[]
-  project_history: ProjectEntry[]
   experience: ExperienceEntry[]
+  open_source_contributions: OpenSourceEntry[]
+  personal_projects: PersonalProjectEntry[]
+  certifications: Certification[]
+  education_and_development: string[]
+  skills: Skill[]
 }
 
 export interface CVData {
