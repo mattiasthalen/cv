@@ -261,12 +261,3 @@ design:
       date_and_location_column: |-
         LOCATION
         DATE
-    publication_entry:
-      main_column: |-
-        **TITLE**
-        **Tech Stack:** AUTHORS
-        SUMMARY
-        HIGHLIGHTS
-      date_and_location_column: |-
-        LOCATION
-        DATE
