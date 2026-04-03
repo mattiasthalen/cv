@@ -1,6 +1,6 @@
 cv:
   name: Mattias Thalén
-  headline: Analytics Consultant
+  headline: Data Engineer & Architect
   location: Uppsala, Sweden
   email: mattias.thalen@me.com
   photo: mattias_thalen.jpg
@@ -13,7 +13,7 @@ cv:
 
   sections:
     summary:
-      - Analytics Consultant building data platforms and migrating legacy BI environments to modern stacks, with LLMs integrated into the daily development workflow. Active open-source contributor to SQLMesh, SQLGlot, and dlt. 13 years in supply chain and manufacturing, from the warehouse floor through an Oracle ERP rollout to global analytics platforms serving 500+ users.
+      - "Data Engineer & Architect specializing in data platform migrations, primarily Qlik to Microsoft Fabric, using dlt and SQLMesh. When those tools lacked Fabric support, I contributed it as an active open-source maintainer on SQLMesh, SQLGlot, and dlt. 13 years at Cytiva, from operations to global analytics, means I start with what the business actually needs, not the tech stack."
 
     open_source_contributions:
       - name: SQLGlot
@@ -79,13 +79,13 @@ cv:
 
     skills:
       - label: Disciplines
-        details: Analytics Engineering, Data Engineering, Business Intelligence (BI)
+        details: Analytics Engineering, Data Engineering, Data Architecture, Business Intelligence (BI)
       - label: Methodologies
         details: Data Modeling, Data Warehousing, ETL/ELT, Unified Star Schema, Medallion Architecture, Hook Methodology
       - label: Languages
-        details: Python, SQL
+        details: Python, SQL, Go, Clojure
       - label: Technologies
-        details: Microsoft Fabric, Qlik Sense, Azure Data Factory, dbt, SQLMesh, dlt
+        details: Microsoft Fabric, Qlik Sense, Azure Data Factory, dbt, SQLMesh, dlt, DuckDB
 
     featured_project:
       - title: Cytiva - One Warehouse
