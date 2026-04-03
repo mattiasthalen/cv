@@ -7,18 +7,19 @@ import { SkillsSection } from './components/SkillsSection'
 import { OpenSourceSection } from './components/OpenSourceSection'
 import { CertificationsSection } from './components/CertificationsSection'
 import { ExperienceSection } from './components/ExperienceSection'
-import { ProjectsSection } from './components/ProjectsSection'
+import { PersonalProjectsSection } from './components/PersonalProjectsSection'
+import { EducationSection } from './components/EducationSection'
 import { Footer } from './components/Footer'
 
 const cvData = (cvRaw as unknown as CVRoot).cv
 
 const sections = [
   { id: 'summary', label: 'Summary' },
-  { id: 'skills', label: 'Skills' },
-  { id: 'open-source', label: 'Open Source' },
-  { id: 'certifications', label: 'Certifications' },
   { id: 'experience', label: 'Experience' },
-  { id: 'projects', label: 'Projects' },
+  { id: 'open-source', label: 'Open Source' },
+  { id: 'personal-projects', label: 'Personal Projects' },
+  { id: 'certifications', label: 'Certifications' },
+  { id: 'skills', label: 'Skills' },
 ]
 
 function App() {
@@ -28,14 +29,12 @@ function App() {
       <StickyNav sections={sections} />
       <main className="max-w-[960px] mx-auto px-6 pb-16">
         <SummarySection summary={cvData.sections.summary} />
-        <SkillsSection skills={cvData.sections.skills} />
-        <OpenSourceSection contributions={cvData.sections.open_source_contributions} />
-        <CertificationsSection certifications={cvData.sections.certifications} />
         <ExperienceSection experience={cvData.sections.experience} />
-        <ProjectsSection
-          featured={cvData.sections.featured_project}
-          projects={cvData.sections.project_history}
-        />
+        <OpenSourceSection contributions={cvData.sections.open_source_contributions} />
+        <PersonalProjectsSection projects={cvData.sections.personal_projects} />
+        <CertificationsSection certifications={cvData.sections.certifications} />
+        <EducationSection education={cvData.sections.education_and_development} />
+        <SkillsSection skills={cvData.sections.skills} />
       </main>
       <Footer />
     </div>
