@@ -1,6 +1,16 @@
 import { useState } from 'react'
 import type { ExperienceEntry } from '../types'
 
+function renderBoldMarkdown(text: string): React.ReactNode[] {
+  const parts = text.split(/(\*\*.*?\*\*)/)
+  return parts.map((part, i) => {
+    if (part.startsWith('**') && part.endsWith('**')) {
+      return <strong key={i} className="text-text-primary font-semibold">{part.slice(2, -2)}</strong>
+    }
+    return <span key={i}>{part}</span>
+  })
+}
+
 interface ExperienceSectionProps {
   experience: ExperienceEntry[]
 }
@@ -49,7 +59,7 @@ export function ExperienceSection({ experience }: ExperienceSectionProps) {
                     <div className="mt-4 space-y-3">
                       {entry.highlights?.map((h, j) => (
                         <p key={j} className="text-sm text-text-secondary leading-relaxed">
-                          {h}
+                          {renderBoldMarkdown(h)}
                         </p>
                       ))}
                     </div>
