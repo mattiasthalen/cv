@@ -78,7 +78,7 @@
   date: datetime(
     year: 2026,
     month: 4,
-    day: 3,
+    day: 4,
   ),
 )
 
@@ -122,6 +122,8 @@ Data Engineer & Architect specializing in data platform migrations, primarily Ql
 
     - #strong[Arctic Paper] (Qlik Sense, dlt): HR lacked visibility into workforce skills across the organization. As the sole developer, I built a talent analytics solution integrating Visma HR, JDE, Maximo, and a homegrown talent system into Qlik. The solution maps skills, grades, and credential expirations across 10 departments, enabling HR to spot skill gaps and plan hiring and training. Adopted by \~200 employees.
 
+    - #strong[Volvohandlarförening] (Azure SQL, Azure Data Factory, dlt): An existing Azure-based data warehouse had unreliable Data Factory pipelines and slow stored procedures. Working solo, I introduced dlt to replace complex unnesting logic and refactored key stored procedures, cutting execution time from \~10 hours to \~10 minutes. The platform serves \~140 users across 7 dealerships with sales, invoicing, and HR analytics.
+
   ],
   [
     2025 – present
@@ -134,8 +136,6 @@ Data Engineer & Architect specializing in data platform migrations, primarily Ql
 #regular-entry(
   [
     #strong[Epical], Analytics Consultant
-
-    - #strong[Volvohandlarförening] (Azure SQL, Azure Data Factory, dlt): An existing Azure-based data warehouse had unreliable Data Factory pipelines and slow stored procedures. Working solo, I introduced dlt to replace complex unnesting logic and refactored key stored procedures, cutting execution time from \~10 hours to \~10 minutes. The platform serves \~140 users across 7 dealerships with sales, invoicing, and HR analytics.
 
     - #strong[Statens Servicecenter] (Qlik Sense): The agency needed to move complex budget allocation logic out of the niche tool Planacy into a more maintainable Qlik platform. In a team of three, I rebuilt the allocation logic in Qlik and documented the entire budgeting process as a Mermaid flowchart, giving the agency their first visual representation of the logic.
 
