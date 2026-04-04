@@ -18,15 +18,15 @@ Data Engineer & Architect specializing in data platform migrations, primarily Ql
 
 1 year
 
-- **Avarn Security** (Microsoft Fabric, dlt, dbt): The client wanted to future-proof their data platform for ML/AI capabilities. Serving as architect and Qlik/Fabric SME alongside Atea Norway, I am designing the migration of the ETL layer for their P&L solution (~15 data sources) from Qlik into Microsoft Fabric. A pilot Power BI app is being built in parallel to validate the new platform for end users.
+- **Avarn Security** (Microsoft Fabric, dlt, dbt): The client wanted to future-proof their data platform for ML/AI capabilities. Serving as architect and Qlik/Fabric SME alongside Atea Norway, designing the migration of the ETL layer for their P&L solution (~15 data sources) from Qlik into Microsoft Fabric. A pilot Power BI app is being built in parallel to validate the new platform for end users.
 
 - **Löfbergs Coffee** (Microsoft Fabric, dlt, SQLMesh, Power BI): An international coffee company facing QlikView end-of-life needed a full platform migration. As lead developer in a team of six, I define the architecture and mentor other developers while migrating ~20 QlikView apps across finance, operations, and sales into Microsoft Fabric with Power BI. The new platform enables self-service analytics and ML/AI capabilities that were not possible on QlikView.
 
-- **Jaktia** (Microsoft Fabric, dlt, SQLMesh): A retail company with a brand-new ERP (Omnium) had no analytics. In a team of three, I designed and built the data platform from the ground up, covering ingestion, historization, and a self-service consumption layer. Delivered a working foundation; the client paused the project to complete their ERP migration.
+- **Jaktia** (Microsoft Fabric, dlt, SQLMesh): A retail company with a brand-new ERP (Omnium) had no analytics. In a team of three, I designed and built the data platform from the ground up, covering ingestion, historization, and a self-service consumption layer. Delivered a production-ready data foundation ahead of the ERP migration timeline.
 
-- **Arctic Paper** (Qlik Sense, dlt): HR lacked visibility into workforce skills across the organization. As the sole developer, I built a talent analytics solution integrating Visma HR, JDE, Maximo, and a homegrown talent system into Qlik. The solution maps skills, grades, and credential expirations across 10 departments, enabling HR to spot skill gaps and plan hiring and training. Adopted by ~200 employees.
+- **Arctic Paper** (Qlik Sense, dlt): HR lacked visibility into workforce skills across the organization. As sole developer, I built a talent analytics solution integrating Visma HR, JDE, Maximo, and a homegrown talent system into Qlik. The solution maps skills, grades, and credential expirations across 10 departments, enabling HR to spot skill gaps and plan hiring and training. Adopted by ~200 employees.
 
-- **Volvohandlarförening** (Azure SQL, Azure Data Factory, dlt): An existing Azure-based data warehouse had unreliable Data Factory pipelines and slow stored procedures. Working solo, I introduced dlt to replace complex unnesting logic and refactored key stored procedures, cutting execution time from ~10 hours to ~10 minutes. The platform serves ~140 users across 7 dealerships with sales, invoicing, and HR analytics.
+- **Volvohandlarförening** (Azure SQL, Azure Data Factory, dlt): An existing Azure-based data warehouse had unreliable Data Factory pipelines and slow stored procedures. As sole developer, I introduced dlt to replace complex unnesting logic and refactored key stored procedures, cutting execution time from ~10 hours to ~10 minutes. The platform serves ~140 users across 7 dealerships with sales, invoicing, and HR analytics.
 
 
 
@@ -56,13 +56,15 @@ Data Engineer & Architect specializing in data platform migrations, primarily Ql
 
 - **One Warehouse** (Qlik Sense): Built a global Qlik app covering inbound, outbound, and inventory management for warehouses in Sweden, the US, Japan, Hong Kong, and Singapore. Replaced a daily emailed spreadsheet with live analytics displayed on warehouse floor screens. Became the most-used app in Global Supply Chain and drove weekly global meetings where each site reviewed their numbers. 500+ users, still in use.
 
-- **Project Carrot** (Oracle): Moved all Uppsala warehouse operations to a 3PL, defining new WMS rules for inbound and outbound.
+- **Project Carrot** (Oracle): Moved all Uppsala warehouse operations to a 3PL, defining new WMS rules for inbound and outbound. Enabled the site to operate under a third-party logistics provider without disruption.
 
 - **Project Harmony** (Oracle): Global project to onboard all Cytiva warehouses to Oracle WMS. As the warehouse operations representative for the template organization in Uppsala, defined WMS rules, labels, and processes. Traveled to the US for the second warehouse go-live, after which the template was complete.
 
-- Analyst & Process Development Planner (2021–2023): Built the analytics platform for the planning department (production, distribution, material) from scratch in Qlik. Delivered KPI dashboards for ~25 users and leadership, enabling data-driven decisions where none existed. Still in use.
+- **Analyst & Process Development Planner** (2021–2023): Built the analytics platform for the planning department (production, distribution, material) from scratch in Qlik. Delivered KPI dashboards for ~25 users and leadership, enabling data-driven decisions where none existed. Still in use.
 
-- Earlier: Logistics Specialist, Deviation Handler, Warehouse Associate (2010–2017). Built initial Qlik apps as side projects and a jQuery web app to automate time reporting. Selected for Project Harmony and Project Carrot.
+- **BI Support Specialist** (2017–2021): Built the One Warehouse suite and a near-real-time operations dashboard. Also ran a machine learning POC for QA/QC that identified test groupings, helping the team prioritize focus areas.
+
+- **Earlier:** Logistics Specialist, Deviation Handler, Warehouse Associate (2010–2017). Built initial Qlik apps as side projects and a jQuery web app to automate time reporting. Selected for Project Harmony and Project Carrot.
 
 
 
