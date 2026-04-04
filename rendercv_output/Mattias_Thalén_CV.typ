@@ -164,6 +164,8 @@ Data Engineer & Architect specializing in data platform migrations, primarily Ql
 
     - #strong[Analyst & Process Development Planner] (2021–2023): Built the analytics platform for the planning department (production, distribution, material) from scratch in Qlik. Delivered KPI dashboards for \~25 users and leadership, enabling data-driven decisions where none existed. Still in use.
 
+    - #strong[BI Support Specialist] (2017–2021): Built the One Warehouse suite and a near-real-time operations dashboard. Also ran a machine learning POC for QA\/QC that identified test groupings, helping the team prioritize focus areas.
+
     - #strong[Earlier:] Logistics Specialist, Deviation Handler, Warehouse Associate (2010–2017). Built initial Qlik apps as side projects and a jQuery web app to automate time reporting. Selected for Project Harmony and Project Carrot.
 
   ],
