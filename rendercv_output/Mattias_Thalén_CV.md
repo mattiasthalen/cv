@@ -54,13 +54,15 @@ Data Engineer & Architect specializing in data platform migrations, primarily Ql
 
 13 years
 
+- **One Warehouse** (Qlik Sense): Built a global Qlik app covering inbound, outbound, and inventory management for warehouses in Sweden, the US, Japan, Hong Kong, and Singapore. Replaced a daily emailed spreadsheet with live analytics displayed on warehouse floor screens. Became the most-used app in Global Supply Chain and drove weekly global meetings where each site reviewed their numbers. 500+ users, still in use.
+
+- **Project Carrot** (Oracle): Moved all Uppsala warehouse operations to a 3PL, defining new WMS rules for inbound and outbound.
+
+- **Project Harmony** (Oracle): Global project to onboard all Cytiva warehouses to Oracle WMS. As the warehouse operations representative for the template organization in Uppsala, defined WMS rules, labels, and processes. Traveled to the US for the second warehouse go-live, after which the template was complete.
+
 - Analyst & Process Development Planner (2021–2023): Built the analytics platform for the planning department (production, distribution, material) from scratch in Qlik. Delivered KPI dashboards for ~25 users and leadership, enabling data-driven decisions where none existed. Still in use.
 
-- BI Support Specialist (2017–2021): Built the One Warehouse suite covering fulfillment (inbound, outbound, in transit), inventory management (physical and cycle count), and a near-real-time operations dashboard. Also ran a machine learning POC for QA/QC that identified test groupings, helping the team prioritize focus areas.
-
-- Logistics Specialist (2015–2017): Managed exports, including monitoring warehouse shipments and preparing export documentation.
-
-- Warehouse Associate & Deviation Handler (2010–2015): Started picking, packing, and shipping orders. Built a jQuery web app to automate time reporting, used by 20 consultants. Selected for Project Harmony, onboarding warehouses to Oracle, where I first learned SQL. Later handled warehouse process deviations, helped set up the 3PL during outsourcing, and started building Qlik apps as side projects.
+- Earlier: Logistics Specialist, Deviation Handler, Warehouse Associate (2010–2017). Built initial Qlik apps as side projects and a jQuery web app to automate time reporting. Selected for Project Harmony and Project Carrot.
 
 
 
