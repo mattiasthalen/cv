@@ -10,17 +10,29 @@
 Data Engineer & Architect specializing in data platform migrations, primarily Qlik to Microsoft Fabric, using dlt and SQLMesh. When those tools lacked Fabric support, I contributed it as an active open-source maintainer on SQLMesh, SQLGlot, and dlt. 13 years at Cytiva, from operations to global analytics, means I start with what the business actually needs, not the tech stack.
 
 # Experience
+## **Daana**, Data Engineer & Architect
+
+May 2026 – present
+
+
+
+2 months
+
+- **Perspetivo** (BigQuery, daana-cli, Airbyte, Dataform): Joining a team of six — two of us from Daana driving the framework work — to build a declarative, AI-generated data platform on Daana's framework ([daana.dev](https://daana.dev)) and the Unified Star Schema. Ingestion runs through Airbyte, with the bulk of the modeling generated via daana-cli and light transformation in Dataform on BigQuery.
+
+
+
 ## **Enqore**, Analytics Consultant
 
-2025 – present
+2025 – May 2026
 
 
 
 1 year
 
-- **Avarn Security** (Microsoft Fabric, dlt, dbt): The client wanted to future-proof their data platform for ML/AI capabilities. Serving as architect and Qlik/Fabric SME alongside Atea Norway, designing the migration of the ETL layer for their P&L solution (~15 data sources) from Qlik into Microsoft Fabric. A pilot Power BI app is being built in parallel to validate the new platform for end users.
+- **Avarn Security** (Microsoft Fabric, dlt, dbt): The client wanted to future-proof their data platform for ML/AI capabilities. Served as architect and Qlik/Fabric SME alongside Atea Norway, designing the migration of the ETL layer for their P&L solution (~15 data sources) from Qlik into Microsoft Fabric. A pilot Power BI app was built in parallel to validate the new platform for end users.
 
-- **Löfbergs Coffee** (Microsoft Fabric, dlt, SQLMesh, Power BI): An international coffee company facing QlikView end-of-life needed a full platform migration. As lead developer in a team of six, I define the architecture and mentor other developers while migrating ~20 QlikView apps across finance, operations, and sales into Microsoft Fabric with Power BI. The new platform enables self-service analytics and ML/AI capabilities that were not possible on QlikView.
+- **Löfbergs Coffee** (Microsoft Fabric, dlt, SQLMesh, Power BI): An international coffee company facing QlikView end-of-life needed a full platform migration. As lead developer in a team of six, I defined the architecture and mentored other developers, migrating ~20 QlikView apps across finance, operations, and sales into Microsoft Fabric with Power BI. The new platform enabled self-service analytics and ML/AI capabilities that were not possible on QlikView.
 
 - **Jaktia** (Microsoft Fabric, dlt, SQLMesh): A retail company with a brand-new ERP (Omnium) had no analytics. In a team of three, I designed and built the data platform from the ground up, covering ingestion, historization, and a self-service consumption layer. Delivered a production-ready data foundation ahead of the ERP migration timeline.
 
@@ -201,4 +213,4 @@ Applied training across 13 years at Cytiva (GE Healthcare Life Sciences), from w
 
 **Languages:** Python, SQL, Go, Clojure
 
-**Technologies:** Microsoft Fabric, Qlik Sense, Azure Data Factory, dbt, SQLMesh, dlt, DuckDB
+**Technologies:** Microsoft Fabric, BigQuery, Qlik Sense, Azure Data Factory, dbt, SQLMesh, dlt, Dataform, Airbyte, DuckDB
